@@ -1,0 +1,56 @@
+{
+    "os": "Linux-6.2.0-31-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-08-30T16:01:05.949316",
+    "startedAt": "2023-08-30T16:01:04.779298",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/martinsinnona/ditella-repo.git",
+        "commit": "1e82eb224851ba68f88e726c79ade3a0359b7594"
+    },
+    "email": "martinsinnona@outlook.es",
+    "root": "/home/martin/Desktop/ditella/ditella-repo",
+    "host": "martin-PC",
+    "username": "martin",
+    "executable": "/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3996.24825,
+        "min": 400.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3804.557,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3270.518,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3813.544,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3073.085,
+            "min": 400.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 48.69831085205078
+    },
+    "memory": {
+        "total": 3.5074386596679688
+    }
+}

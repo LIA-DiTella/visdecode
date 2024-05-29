@@ -1,0 +1,32 @@
+body_mass_g
+
+6000
+
+5500
+
+8
+8
+
+&
+8
+
+4000
+
+3500
+
+3000
+
+Scatterplot-Relationship between two variables
+
+ 
+
+ 
+
+ 
+
+ 
+
+culmen_length_mm
+
+ 
+

@@ -1,0 +1,398 @@
+<mark>bar</mark><x><type>quantitative</type><field>Cost of communications computer etc. (% of service imports)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Number of subsciptions</field></x><y><type>nominal</type><field>Type of subscription</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Amount of stocks(% of population)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Branches or ATMs(per 100000 adults)</field></x><y><type>nominal</type><field>Branch/ATM</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Amount (in current US$)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Health expenditure (as % of GDP)</field></x><y><type>nominal</type><field>Type of funds</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Electricity production(% of total)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>CO2 emissions (% of total fuel combustion)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Population growth (in %)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Education completion rate(%)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Value added (% of GDP)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Expenditure(% of government expenditure on education)</field></x><y><type>nominal</type><field>Education</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Total Labor Force (in %)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Vaccinated children(%)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Aid flow (current US$)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Primary completion rate (% of total enrollments)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Balance of Payment (as % of service exports)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Annual freshwater withdrawals (% of internal resources)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Women receiving prenatal care (%)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Imports (% of total merchandise imports)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>% of population</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Unemployed males(% of male labor force ages 15-24)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Savings (current US$)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Elevated land area (as % of total land area)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field> % of children under 5</field></y>
+<mark>point</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Agricultural emissions (as % of total)</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Employment (as % of total employment)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Aid received (constant 2012 US$)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Emission (in thousand metric tons of CO2 equivalent)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Revenue generated (as % of GDP)</field></y>
+<mark>point</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>GDP(constant 2005 US)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Amount(% of total)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Employers (% of employed population)</field></y>
+<mark>line</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Amount (in US$)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Unemployed total(% of total labor force ages 15-24)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Number of enrolments of both sexes</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Expenses (in $)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Number of days</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Educated males (% of male labor force)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Population (in %)</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Number of tractors</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Debt(% of exports of goods services and primary income)</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>% of total agricultural land</field></y>
+<mark>line</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Cost (as % of GNI)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Aid received (current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Amount (in current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>CO2 emissions (% of total fuel combustion)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Revenue generated (as % of GDP)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Payments (BoP current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Import quantity</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>% of economically active children</field></y>
+<mark>bar</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Emission (in thousand metric tons of CO2 equivalent)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Merchandise Trading</field></x><y><type>quantitative</type><field>Trade with high income economies(%)</field></y>
+<mark>bar</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Number of deaths</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Type of school</field></x><y><type>quantitative</type><field>Female teachers (% of total teachers)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Ratio(expressed as %)</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>% of total agricultural land</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Export or import quantity</field></y>
+<mark>point</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Amount (in US$)</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Expenditure(% of government expenditure on education)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Manufacturing industries</field></x><y><type>quantitative</type><field>Value added (in %)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Merchandise Trading</field></x><y><type>quantitative</type><field>Earnings(current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Population (in %)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Female students (as % of total students)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Age group</field></x><y><type>quantitative</type><field>Total Labor Force (in %)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Value added (% of GDP)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Income share held (as % of total income)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Area (in %)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Unemployed Males (% of male labor force)</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Coverage(% of people living with HIV)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>% of tax revenue</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Income from abroad (in US$)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Unemployment (% of male unemployment)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>% of children under 5 taken to a health provider</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Unemployed males(% of male labor force ages 15-24)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Investment (in US$)</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Aid flow from UN agencies (US$)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Emissions(in percent)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Years</field></x><y><type>quantitative</type><field>Rating (1=low 6=high)</field></y>
+<mark>point</mark><x><type>ordinal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Number of passengers carried</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Yield kg per hectare</field></y>
+<mark>point</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Rating (1=underdeveloped to 7=well developed) </field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Area of land (hectares per person)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>% of births</field></y>
+<mark>point</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Gross intake ratio(%)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Earnings(current US$)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Gross enrolment ratio (%)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Balance of Payment (as % of service imports)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Consumption of fixed capital (as % of GNI)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Amount of imports(as % of merchandise imports)</field></x><y><type>nominal</type><field>Country</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>% of children in employment</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Pupil-teacher ratio(headcount basis)</field></x><y><type>nominal</type><field>Education</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>% of urban population</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Year</field></x><y><type>quantitative</type><field>Amount exported (in US$)</field></y>
+<mark>point</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Expenditure (as % of GNI)</field></x><y><type>temporal</type><field>Years</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Amount of imports(as % of merchandise imports)</field></x><y><type>temporal</type><field>Year</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>quantitative</type><field>Female students (as % of total students)</field></x><y><type>nominal</type><field>Education levels</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>

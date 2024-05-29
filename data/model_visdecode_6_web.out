@@ -1,0 +1,146 @@
+<mark>point</mark><x><type>quantitative</type><field>culmen_length_mm</field></x><y><type>quantitative</type><field>body_mass_g</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Youth unemployment rate</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>ordinal</type><field></field></x><y><type>quantitative</type><field>Amount of daily sent messages in billions</field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type><field>Ticket price in U.S. dollars</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>ordinal</type><field></field></x><y><type>quantitative</type><field>Revenue in billions U.S. dollars</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Number of users in millions</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Number of vehicles in thousands</field></y>
+<mark>bar</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field>Number of retail stores</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>temporal</type><field>Time (minutes) with Doctor in Outpatient Clinic Consultation</field></x><y><type>quantitative</type><field>Outpatient Satisfaction</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>bar</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Number of fatalities</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Inflation rate compared to previous year</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Unemployment rate</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Unemployment rate</field></y>
+<mark>line</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>ordinal</type><field></field></x><y><type>quantitative</type><field>Quarterly revenue in million U.S. dollars</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Average annual wages in euros</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field>Number of nominations</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field>Weight (lbs.)</field></x><y><type>quantitative</type><field>Mileage (mpg)</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field>total_bill</field></x><y><type>quantitative</type><field>tip</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field>hopkins$day</field></x><y><type>quantitative</type><field>hopkins$wind</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>point</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field>length</field></x><y><type>quantitative</type><field>success</field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field>Time</field></x><y><type>quantitative</type><field>Temperature °C</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>line</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>ordinal</type><field></field></x><y><type>quantitative</type><field>Average Monthly Temperature</field></y>
+<mark>line</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>line</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>point</mark><x><type>quantitative</type><field></field></x><y><type>quantitative</type><field></field></y>
+<mark>point</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Inhabitants in millions</field></y>
+<mark>line</mark><x><type>temporal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field>Life expectancy in years</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field>Percentage of votes</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>
+
+
+<mark>line</mark><x><type>temporal</type><field></field></x><y><type>quantitative</type><field>Average daily rate in U.S. dollars</field></y>
+<mark>line</mark><x><type>quantitative</type></x><y><type>quantitative</type></y>
+
+
+<mark>bar</mark><x><type>nominal</type><field></field></x><y><type>quantitative</type><field>Gross profit margin</field></y>
+<mark>bar</mark><x><type>nominal</type></x><y><type>quantitative</type></y>

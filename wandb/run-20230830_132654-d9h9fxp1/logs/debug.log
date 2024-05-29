@@ -1,0 +1,39 @@
+2023-08-30 13:26:54,709 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Configure stats pid to 5948
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Loading settings from /home/martin/.config/wandb/settings
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Loading settings from /home/martin/Desktop/ditella/ditella-repo/plots/wandb/settings
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-30 13:26:54,710 INFO    MainThread:5948 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-30 13:26:54,711 INFO    MainThread:5948 [wandb_init.py:_log_setup():524] Logging user logs to /home/martin/Desktop/ditella/ditella-repo/plots/wandb/run-20230830_132654-d9h9fxp1/logs/debug.log
+2023-08-30 13:26:54,711 INFO    MainThread:5948 [wandb_init.py:_log_setup():525] Logging internal logs to /home/martin/Desktop/ditella/ditella-repo/plots/wandb/run-20230830_132654-d9h9fxp1/logs/debug-internal.log
+2023-08-30 13:26:54,711 INFO    MainThread:5948 [wandb_init.py:init():564] calling init triggers
+2023-08-30 13:26:54,711 INFO    MainThread:5948 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-08-30 13:26:54,711 INFO    MainThread:5948 [wandb_init.py:init():588] re-initializing run, found existing run on stack: 1svg84ia
+2023-08-30 13:26:54,725 INFO    MainThread:5948 [wandb_run.py:_finish():1894] finishing run martinsinnona/autoencoder8/1svg84ia
+2023-08-30 13:26:54,730 INFO    MainThread:5948 [jupyter.py:save_history():445] not saving jupyter history
+2023-08-30 13:26:54,730 INFO    MainThread:5948 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-30 13:26:54,730 INFO    MainThread:5948 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-08-30 13:26:54,731 INFO    MainThread:5948 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-08-30 13:26:54,737 INFO    MainThread:5948 [wandb_run.py:_restore():2111] restore
+2023-08-30 13:26:54,738 INFO    MainThread:5948 [wandb_run.py:_restore():2117] restore done
+2023-08-30 13:26:58,396 INFO    MainThread:5948 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-30 13:26:58,397 INFO    MainThread:5948 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-30 13:26:58,404 INFO    MainThread:5948 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-08-30 13:27:00,419 INFO    MainThread:5948 [wandb_init.py:init():613] starting backend
+2023-08-30 13:27:00,420 INFO    MainThread:5948 [wandb_init.py:init():617] setting up manager
+2023-08-30 13:27:00,429 INFO    MainThread:5948 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-30 13:27:00,431 INFO    MainThread:5948 [wandb_init.py:init():623] backend started and connected
+2023-08-30 13:27:00,470 INFO    MainThread:5948 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-30 13:27:00,470 INFO    MainThread:5948 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-30 13:27:00,470 INFO    MainThread:5948 [wandb_init.py:init():714] updated telemetry
+2023-08-30 13:27:00,476 INFO    MainThread:5948 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-08-30 13:27:01,177 INFO    MainThread:5948 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-30 13:27:01,316 INFO    MainThread:5948 [wandb_run.py:_on_init():2189] got version response 
+2023-08-30 13:27:01,316 INFO    MainThread:5948 [wandb_init.py:init():798] starting run threads in backend
+2023-08-30 13:27:01,349 INFO    MainThread:5948 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-30 13:27:01,349 INFO    MainThread:5948 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-30 13:27:01,349 INFO    MainThread:5948 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-30 13:27:01,349 INFO    MainThread:5948 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-30 13:27:01,350 INFO    MainThread:5948 [wandb_init.py:init():839] run started, returning control to user process

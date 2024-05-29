@@ -1,0 +1,242 @@
+[
+  {
+    "age": 25, "income": 48000, "height": 170, "weight": 65, "savings": 2500, "temperature": 26.5, "rating": 4.0, "experience": 2, "distance": 4.5, "speed": 30,
+    "birth_date": "1998-05-12", "joining_date": "2023-01-10", "expiry_date": "2024-12-31", "purchase_date": "2024-03-10", "delivery_date": "2024-03-17",
+    "city": "New York City", "country": "United States", "category": "Electronics", "brand": "Apple", "product": "iPhone",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 120, "num_followers": 2500, "num_posts": 85, "num_likes": 500, "num_comments": 75,
+    "balance": 500, "credit_limit": 2000, "monthly_expenses": 1200, "monthly_savings": 500, "num_purchases": 15,
+    "travel_distance": 12.5, "travel_time": 45, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 72, "steps_per_day": 8000, "calories_burned": 1800, "sleep_hours": 7, "coffee_consumption": 3
+  },
+  {
+    "age": 32, "income": 55000, "height": 175, "weight": 70, "savings": 3500, "temperature": 27.0, "rating": 4.2, "experience": 5, "distance": 6.8, "speed": 35,
+    "birth_date": "1991-09-20", "joining_date": "2023-02-15", "expiry_date": "2025-01-31", "purchase_date": "2024-05-12", "delivery_date": "2024-05-19",
+    "city": "Los Angeles", "country": "United States", "category": "Fashion", "brand": "Nike", "product": "Sneakers",
+    "education": "Master's", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 80, "num_followers": 1800, "num_posts": 65, "num_likes": 400, "num_comments": 60,
+    "balance": 800, "credit_limit": 2500, "monthly_expenses": 1500, "monthly_savings": 800, "num_purchases": 10,
+    "travel_distance": 8.5, "travel_time": 30, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 80, "steps_per_day": 10000, "calories_burned": 2000, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 28, "income": 52000, "height": 165, "weight": 55, "savings": 2800, "temperature": 26.2, "rating": 4.1, "experience": 3, "distance": 5.5, "speed": 25,
+    "birth_date": "1995-11-05", "joining_date": "2023-03-20", "expiry_date": "2025-02-28", "purchase_date": "2024-08-15", "delivery_date": "2024-08-22",
+    "city": "Chicago", "country": "United States", "category": "Home Appliances", "brand": "LG", "product": "Smart TV",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 45, "num_likes": 300, "num_comments": 40,
+    "balance": 400, "credit_limit": 1500, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 7.0, "travel_time": 20, "shoe_size": 7, "shirt_size": "S", "blood_pressure": "110/75",
+    "heart_rate": 65, "steps_per_day": 6000, "calories_burned": 1600, "sleep_hours": 8, "coffee_consumption": 1
+  },
+  {
+    "age": 30, "income": 60000, "height": 180, "weight": 75, "savings": 4500, "temperature": 27.8, "rating": 4.3, "experience": 6, "distance": 8.0, "speed": 40,
+    "birth_date": "1993-04-15", "joining_date": "2023-05-10", "expiry_date": "2025-03-31", "purchase_date": "2024-10-05", "delivery_date": "2024-10-12",
+    "city": "San Francisco", "country": "United States", "category": "Beauty", "brand": "MAC", "product": "Lipstick",
+    "education": "PhD", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 90, "num_followers": 2000, "num_posts": 75, "num_likes": 450, "num_comments": 50,
+    "balance": 700, "credit_limit": 1800, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 9.5, "travel_time": 35, "shoe_size": 10, "shirt_size": "XL", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7500, "calories_burned": 1700, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 33, "income": 58000, "height": 172, "weight": 68, "savings": 4000, "temperature": 26.0, "rating": 4.1, "experience": 4, "distance": 6.5, "speed": 35,
+    "birth_date": "1990-12-10", "joining_date": "2023-07-15", "expiry_date": "2025-04-30", "purchase_date": "2024-12-10", "delivery_date": "2024-12-17",
+    "city": "Seattle", "country": "United States", "category": "Sports", "brand": "Nike", "product": "Sports Shoes",
+    "education": "Master's", "employment": "Full-time", "status": "Single", "priority": "Medium", "satisfaction": "Satisfied",
+    "num_friends": 70, "num_followers": 1500, "num_posts": 55, "num_likes": 350, "num_comments": 45,
+    "balance": 600, "credit_limit": 1600, "monthly_expenses": 1000, "monthly_savings": 550, "num_purchases": 10,
+    "travel_distance": 8.0, "travel_time": 30, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1500, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 29, "income": 51000, "height": 168, "weight": 60, "savings": 3200, "temperature": 26.8, "rating": 4.2, "experience": 3, "distance": 6.2, "speed": 35,
+    "birth_date": "1994-08-25", "joining_date": "2023-09-20", "expiry_date": "2025-05-31", "purchase_date": "2025-01-10", "delivery_date": "2025-01-17",
+    "city": "Boston", "country": "United States", "category": "Electronics", "brand": "Samsung", "product": "Smartphone",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 60, "num_followers": 1300, "num_posts": 50, "num_likes": 300, "num_comments": 40,
+    "balance": 550, "credit_limit": 1400, "monthly_expenses": 950, "monthly_savings": 500, "num_purchases": 9,
+    "travel_distance": 7.8, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6500, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 31, "income": 57000, "height": 173, "weight": 70, "savings": 3800, "temperature": 27.2, "rating": 4.3, "experience": 4, "distance": 7.0, "speed": 40,
+    "birth_date": "1992-07-08", "joining_date": "2023-11-15", "expiry_date": "2025-06-30", "purchase_date": "2025-03-20", "delivery_date": "2025-03-27",
+    "city": "Washington D.C.", "country": "United States", "category": "Fashion", "brand": "Zara", "product": "Jeans",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 85, "num_followers": 1800, "num_posts": 60, "num_likes": 400, "num_comments": 50,
+    "balance": 650, "credit_limit": 1700, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 8.5, "travel_time": 32, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 27, "income": 53000, "height": 172, "weight": 62, "savings": 3000, "temperature": 26.0, "rating": 4.1, "experience": 3, "distance": 6.0, "speed": 35,
+    "birth_date": "1996-02-17", "joining_date": "2023-12-10", "expiry_date": "2025-07-31", "purchase_date": "2025-05-05", "delivery_date": "2025-05-12",
+    "city": "San Diego", "country": "United States", "category": "Home Appliances", "brand": "Whirlpool", "product": "Washing Machine",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 55, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 34, "income": 60000, "height": 178, "weight": 75, "savings": 4200, "temperature": 26.8, "rating": 4.2, "experience": 5, "distance": 7.5, "speed": 40,
+    "birth_date": "1989-10-12", "joining_date": "2024-01-20", "expiry_date": "2025-08-31", "purchase_date": "2025-06-10", "delivery_date": "2025-06-17",
+    "city": "Austin", "country": "United States", "category": "Beauty", "brand": "L'Oreal", "product": "Foundation",
+    "education": "Master's", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 80, "num_followers": 2000, "num_posts": 70, "num_likes": 500, "num_comments": 60,
+    "balance": 700, "credit_limit": 1800, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 9.0, "travel_time": 35, "shoe_size": 10, "shirt_size": "XL", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7500, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 36, "income": 62000, "height": 175, "weight": 70, "savings": 4500, "temperature": 27.2, "rating": 4.3, "experience": 6, "distance": 8.0, "speed": 45,
+    "birth_date": "1987-12-02", "joining_date": "2024-03-15", "expiry_date": "2025-09-30", "purchase_date": "2025-07-05", "delivery_date": "2025-07-12",
+    "city": "Portland", "country": "United States", "category": "Sports", "brand": "Puma", "product": "Running Shoes",
+    "education": "PhD", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 100, "num_followers": 2300, "num_posts": 80, "num_likes": 600, "num_comments": 70,
+    "balance": 800, "credit_limit": 2000, "monthly_expenses": 1200, "monthly_savings": 800, "num_purchases": 15,
+    "travel_distance": 10.0, "travel_time": 40, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 80, "steps_per_day": 8000, "calories_burned": 1700, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 27, "income": 54000, "height": 168, "weight": 60, "savings": 2800, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.2, "speed": 35,
+    "birth_date": "1996-04-10", "joining_date": "2024-05-10", "expiry_date": "2025-10-31", "purchase_date": "2025-08-05", "delivery_date": "2025-08-12",
+    "city": "Denver", "country": "United States", "category": "Electronics", "brand": "Sony", "product": "Headphones",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 32, "income": 60000, "height": 175, "weight": 72, "savings": 4000, "temperature": 26.8, "rating": 4.2, "experience": 4, "distance": 7.2, "speed": 40,
+    "birth_date": "1989-09-22", "joining_date": "2024-07-15", "expiry_date": "2025-11-30", "purchase_date": "2025-09-10", "delivery_date": "2025-09-17",
+    "city": "Las Vegas", "country": "United States", "category": "Fashion", "brand": "H&M", "product": "T-shirt",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 70, "num_followers": 1800, "num_posts": 55, "num_likes": 350, "num_comments": 45,
+    "balance": 650, "credit_limit": 1700, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 8.5, "travel_time": 32, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 29, "income": 52000, "height": 172, "weight": 65, "savings": 3200, "temperature": 26.0, "rating": 4.1, "experience": 3, "distance": 6.5, "speed": 35,
+    "birth_date": "1994-02-05", "joining_date": "2024-09-20", "expiry_date": "2025-12-31", "purchase_date": "2026-01-05", "delivery_date": "2026-01-12",
+    "city": "Miami", "country": "United States", "category": "Home Appliances", "brand": "Dyson", "product": "Vacuum Cleaner",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 60, "num_followers": 1300, "num_posts": 45, "num_likes": 300, "num_comments": 40,
+    "balance": 550, "credit_limit": 1400, "monthly_expenses": 950, "monthly_savings": 500, "num_purchases": 9,
+    "travel_distance": 7.8, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6500, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 35, "income": 62000, "height": 178, "weight": 75, "savings": 4500, "temperature": 26.8, "rating": 4.2, "experience": 5, "distance": 7.8, "speed": 40,
+    "birth_date": "1988-11-30", "joining_date": "2024-11-15", "expiry_date": "2026-01-31", "purchase_date": "2026-03-10", "delivery_date": "2026-03-17",
+    "city": "Orlando", "country": "United States", "category": "Beauty", "brand": "Estée Lauder", "product": "Skincare Cream",
+    "education": "PhD", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 100, "num_followers": 2300, "num_posts": 80, "num_likes": 600, "num_comments": 70,
+    "balance": 800, "credit_limit": 2000, "monthly_expenses": 1200, "monthly_savings": 800, "num_purchases": 15,
+    "travel_distance": 10.0, "travel_time": 40, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 80, "steps_per_day": 8000, "calories_burned": 1700, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 28, "income": 54000, "height": 172, "weight": 62, "savings": 2800, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.0, "speed": 35,
+    "birth_date": "1995-05-17", "joining_date": "2025-01-10", "expiry_date": "2026-03-31", "purchase_date": "2026-05-05", "delivery_date": "2026-05-12",
+    "city": "Phoenix", "country": "United States", "category": "Electronics", "brand": "Microsoft", "product": "Laptop",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 33, "income": 62000, "height": 175, "weight": 70, "savings": 4200, "temperature": 26.8, "rating": 4.2, "experience": 4, "distance": 7.5, "speed": 40,
+    "birth_date": "1988-10-12", "joining_date": "2025-03-15", "expiry_date": "2026-06-30", "purchase_date": "2026-06-10", "delivery_date": "2026-06-17",
+    "city": "Dallas", "country": "United States", "category": "Fashion", "brand": "Gap", "product": "Shirt",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 70, "num_followers": 1800, "num_posts": 55, "num_likes": 350, "num_comments": 45,
+    "balance": 650, "credit_limit": 1700, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 8.5, "travel_time": 32, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 30, "income": 54000, "height": 172, "weight": 65, "savings": 3000, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.5, "speed": 35,
+    "birth_date": "1993-02-22", "joining_date": "2025-05-10", "expiry_date": "2026-08-31", "purchase_date": "2026-07-05", "delivery_date": "2026-07-12",
+    "city": "San Antonio", "country": "United States", "category": "Home Appliances", "brand": "KitchenAid", "product": "Stand Mixer",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 34, "income": 64000, "height": 178, "weight": 75, "savings": 4800, "temperature": 26.8, "rating": 4.2, "experience": 5, "distance": 7.8, "speed": 40,
+    "birth_date": "1987-09-30", "joining_date": "2025-07-15", "expiry_date": "2026-10-31", "purchase_date": "2026-09-10", "delivery_date": "2026-09-17",
+    "city": "Houston", "country": "United States", "category": "Beauty", "brand": "Clinique", "product": "Mascara",
+    "education": "PhD", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 100, "num_followers": 2500, "num_posts": 90, "num_likes": 700, "num_comments": 80,
+    "balance": 900, "credit_limit": 2300, "monthly_expenses": 1400, "monthly_savings": 900, "num_purchases": 18,
+    "travel_distance": 11.0, "travel_time": 45, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 85, "steps_per_day": 8500, "calories_burned": 1800, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 28, "income": 55000, "height": 172, "weight": 62, "savings": 3200, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.0, "speed": 35,
+    "birth_date": "1994-06-10", "joining_date": "2025-09-20", "expiry_date": "2026-12-31", "purchase_date": "2027-01-05", "delivery_date": "2027-01-12",
+    "city": "New Orleans", "country": "United States", "category": "Electronics", "brand": "Canon", "product": "Camera",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 31, "income": 58000, "height": 175, "weight": 70, "savings": 3800, "temperature": 26.8, "rating": 4.2, "experience": 4, "distance": 7.2, "speed": 40,
+    "birth_date": "1990-08-22", "joining_date": "2025-11-15", "expiry_date": "2027-02-28", "purchase_date": "2027-03-20", "delivery_date": "2027-03-27",
+    "city": "Nashville", "country": "United States", "category": "Fashion", "brand": "Zara", "product": "Dress",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 70, "num_followers": 1800, "num_posts": 55, "num_likes": 350, "num_comments": 45,
+    "balance": 650, "credit_limit": 1700, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 8.5, "travel_time": 32, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 29, "income": 51000, "height": 172, "weight": 65, "savings": 3200, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.5, "speed": 35,
+    "birth_date": "1992-02-05", "joining_date": "2026-01-10", "expiry_date": "2027-04-30", "purchase_date": "2027-05-05", "delivery_date": "2027-05-12",
+    "city": "Chicago", "country": "United States", "category": "Home Appliances", "brand": "LG", "product": "Refrigerator",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 35, "income": 65000, "height": 178, "weight": 75, "savings": 4800, "temperature": 26.8, "rating": 4.2, "experience": 5, "distance": 7.8, "speed": 40,
+    "birth_date": "1991-09-30", "joining_date": "2026-03-15", "expiry_date": "2027-06-30", "purchase_date": "2027-06-10", "delivery_date": "2027-06-17",
+    "city": "Atlanta", "country": "United States", "category": "Beauty", "brand": "MAC", "product": "Lipstick",
+    "education": "PhD", "employment": "Full-time", "status": "Married", "priority": "High", "satisfaction": "Satisfied",
+    "num_friends": 100, "num_followers": 2500, "num_posts": 90, "num_likes": 700, "num_comments": 80,
+    "balance": 900, "credit_limit": 2300, "monthly_expenses": 1400, "monthly_savings": 900, "num_purchases": 18,
+    "travel_distance": 11.0, "travel_time": 45, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "130/85",
+    "heart_rate": 85, "steps_per_day": 8500, "calories_burned": 1800, "sleep_hours": 6, "coffee_consumption": 2
+  },
+  {
+    "age": 28, "income": 56000, "height": 172, "weight": 62, "savings": 3200, "temperature": 26.5, "rating": 4.1, "experience": 3, "distance": 6.0, "speed": 35,
+    "birth_date": "1992-06-10", "joining_date": "2026-05-10", "expiry_date": "2027-08-31", "purchase_date": "2027-09-05", "delivery_date": "2027-09-12",
+    "city": "Seattle", "country": "United States", "category": "Electronics", "brand": "Sony", "product": "Smartphone",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Single", "priority": "Low", "satisfaction": "Dissatisfied",
+    "num_friends": 50, "num_followers": 1200, "num_posts": 40, "num_likes": 250, "num_comments": 35,
+    "balance": 450, "credit_limit": 1300, "monthly_expenses": 900, "monthly_savings": 400, "num_purchases": 8,
+    "travel_distance": 6.5, "travel_time": 28, "shoe_size": 8, "shirt_size": "M", "blood_pressure": "120/80",
+    "heart_rate": 70, "steps_per_day": 6000, "calories_burned": 1400, "sleep_hours": 7, "coffee_consumption": 2
+  },
+  {
+    "age": 32, "income": 60000, "height": 175, "weight": 70, "savings": 3800, "temperature": 26.8, "rating": 4.2, "experience": 4, "distance": 7.2, "speed": 40,
+    "birth_date": "1994-08-22", "joining_date": "2026-09-15", "expiry_date": "2027-12-31", "purchase_date": "2028-01-10", "delivery_date": "2028-01-17",
+    "city": "Los Angeles", "country": "United States", "category": "Fashion", "brand": "H&M", "product": "Jeans",
+    "education": "Bachelor's", "employment": "Full-time", "status": "Married", "priority": "Medium", "satisfaction": "Neutral",
+    "num_friends": 70, "num_followers": 1800, "num_posts": 55, "num_likes": 350, "num_comments": 45,
+    "balance": 650, "credit_limit": 1700, "monthly_expenses": 1100, "monthly_savings": 600, "num_purchases": 12,
+    "travel_distance": 8.5, "travel_time": 32, "shoe_size": 9, "shirt_size": "L", "blood_pressure": "125/80",
+    "heart_rate": 75, "steps_per_day": 7000, "calories_burned": 1600, "sleep_hours": 6, "coffee_consumption": 2
+  }
+]
