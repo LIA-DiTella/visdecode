@@ -196,8 +196,8 @@ def compute_accuracies2(results, output_raw = False):
     accuracy_var_types_x = np.round(np.mean(accuracies_var_types_x),2)
     accuracy_var_types_y = np.round(np.mean(accuracies_var_types_y),2)
     
-    accuracy_var_names_x = np.round(np.mean(np.array(accuracies_var_names_x) > 0.7),2)
-    accuracy_var_names_y = np.round(np.mean(np.array(accuracies_var_names_y) > 0.7),2)
+    accuracy_var_names_x = np.round(np.mean(np.array(accuracies_var_names_x)),2)
+    accuracy_var_names_y = np.round(np.mean(np.array(accuracies_var_names_y)),2)
 
     if output_raw: return accuracies_mark_type, accuracies_var_types_x, accuracies_var_types_y, accuracies_var_names_x, accuracies_var_names_y
     return accuracy_mark_type, accuracy_var_types_x, accuracy_var_types_y, accuracy_var_names_x, accuracy_var_names_y
