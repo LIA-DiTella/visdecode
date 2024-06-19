@@ -1,101 +1,101 @@
 file_name,text
-0.png,"{'encoding': {'y': {'field': 'Aid flow (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-1.png,"{'encoding': {'y': {'field': 'Rating (1=underdeveloped to 7=well developed) ', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-2.png,"{'encoding': {'y': {'field': 'Under 5 mortality rate (per 1000 live births)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-3.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Amount (in current US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-4.png,"{'encoding': {'y': {'field': 'Expenditure (as % of GNI)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-5.png,"{'encoding': {'y': {'field': 'Expenditure(as % of GDP)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-6.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Amount (in US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-7.png,"{'encoding': {'y': {'field': 'Primary income (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-8.png,"{'encoding': {'y': {'field': 'Inverstment/savings', 'type': 'nominal'}, 'x': {'field': '% of GDP', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-9.png,"{'encoding': {'y': {'field': 'Unemployed and educated male labor force (% of population)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-10.png,"{'encoding': {'y': {'field': 'Trade with economies of Sub-Saharan Africa(%)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-11.png,"{'encoding': {'y': {'field': 'Personal remittance (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-12.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': '% of urban population', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-13.png,"{'encoding': {'y': {'field': 'Net enrolment rate(%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-14.png,"{'encoding': {'y': {'field': 'Total Labor Force (in %)', 'type': 'quantitative'}, 'x': {'field': 'Age group', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-15.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Gross enrolment ratio (%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-16.png,"{'encoding': {'y': {'field': 'Net Energy imports(% of energy use)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-17.png,"{'encoding': {'y': {'field': 'Pupil-teacher ratio(headcount basis)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-18.png,"{'encoding': {'y': {'field': 'Type of accounts', 'type': 'nominal'}, 'x': {'field': 'BoP (in US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-19.png,"{'encoding': {'y': {'field': 'Number of flight takeoffs', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-20.png,"{'encoding': {'y': {'field': 'Number of power outages', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-21.png,"{'encoding': {'y': {'field': 'Average precipitation (mm )', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-22.png,"{'encoding': {'y': {'field': 'Trade', 'type': 'nominal'}, 'x': {'field': 'Number of documents required', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-23.png,"{'encoding': {'y': {'field': 'Revenue generated (as % of GDP)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-24.png,"{'encoding': {'y': {'field': 'Unemployed males (as % of male labor force)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-25.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Gross enrolment ratio (%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-26.png,"{'encoding': {'y': {'field': 'Type of subscription', 'type': 'nominal'}, 'x': {'field': 'No. of subscribers (per 100 people)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-27.png,"{'encoding': {'y': {'field': 'Rating index(maximum value in 2004 = 100)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-28.png,"{'encoding': {'y': {'field': 'Firms', 'type': 'nominal'}, 'x': {'field': '% of firms', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-29.png,"{'encoding': {'y': {'field': 'Aid flow (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-30.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Literacy rate(%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-31.png,"{'encoding': {'y': {'field': 'Mortality Rate (per 1000 live birth or children)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-32.png,"{'encoding': {'y': {'field': 'Population (in % of total)', 'type': 'quantitative'}, 'x': {'field': 'Type of population', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-33.png,"{'encoding': {'y': {'field': 'Expenditure(% of government expenditure on education)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-34.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Aid flow from UN agencies (US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-35.png,"{'encoding': {'y': {'field': 'Money growth type', 'type': 'nominal'}, 'x': {'field': 'Growth rate (annual %)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-36.png,"{'encoding': {'y': {'field': 'Firms', 'type': 'nominal'}, 'x': {'field': '% of firms', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-37.png,"{'encoding': {'y': {'field': 'Percentage of repeaters (%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-38.png,"{'encoding': {'y': {'field': 'Emissions(kt)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-39.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Persistence rate to the last grade of primary education (%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-40.png,"{'encoding': {'y': {'field': 'Electricity production(% of total)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-41.png,"{'encoding': {'y': {'field': 'Debt(current US$)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-42.png,"{'encoding': {'y': {'field': 'Rating (1=low 6=high)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-43.png,"{'encoding': {'y': {'field': 'Gross enrolment ratio (%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-44.png,"{'encoding': {'y': {'field': '% of children employment', 'type': 'quantitative'}, 'x': {'field': 'Education background', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-45.png,"{'encoding': {'y': {'field': '% of repeaters', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-46.png,"{'encoding': {'y': {'field': 'Earnings(current US$)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-47.png,"{'encoding': {'y': {'field': 'Unemployed Males (% of male labor force)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-48.png,"{'encoding': {'y': {'field': 'Persistence rate to the last grade of primary education (%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-49.png,"{'encoding': {'y': {'field': 'Tax (as % of commercial profit)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-50.png,"{'encoding': {'y': {'field': 'Gross intake ratio(%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-51.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Amount(current US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-52.png,"{'encoding': {'y': {'field': 'Grants(current US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-53.png,"{'encoding': {'y': {'field': 'Expenditure(as % of GDP)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-54.png,"{'encoding': {'y': {'field': 'Payments(% of exports of goods services and primary income)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-55.png,"{'encoding': {'y': {'field': 'Active population (% of total population)', 'type': 'quantitative'}, 'x': {'field': 'Sex', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-56.png,"{'encoding': {'y': {'field': 'Rating of statistical capacity (0-100)', 'type': 'quantitative'}, 'x': {'field': 'Categories of statistical system', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-57.png,"{'encoding': {'y': {'field': 'Income share held (as % of total income)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-58.png,"{'encoding': {'y': {'field': 'Number of applications', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-59.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': '% of GDP', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-60.png,"{'encoding': {'y': {'field': 'Trade with economies in the Arab World(%)', 'type': 'quantitative'}, 'x': {'field': 'Merchandise Trading', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-61.png,"{'encoding': {'y': {'field': 'Internet users (% of population)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-62.png,"{'encoding': {'y': {'field': 'Gross intake ratio(%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-63.png,"{'encoding': {'y': {'field': 'Number of total applications', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-64.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': 'Success rate(as % of new cases)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-65.png,"{'encoding': {'y': {'field': 'General Parity Index (GPI)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-66.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': ' % of children under 5', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-67.png,"{'encoding': {'y': {'field': 'Secondary income (in US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-68.png,"{'encoding': {'y': {'field': 'Earning(%)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-69.png,"{'encoding': {'y': {'field': 'Electricity production(% of total)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-70.png,"{'encoding': {'y': {'field': 'Expenditure (as % of GDP per capita)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-71.png,"{'encoding': {'y': {'field': 'Number of children', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-72.png,"{'encoding': {'y': {'field': 'Aid received (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-73.png,"{'encoding': {'y': {'field': 'Population (in % of total population)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-74.png,"{'encoding': {'y': {'field': 'Value added (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-75.png,"{'encoding': {'y': {'field': 'Health expenditure (as % of GDP)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-76.png,"{'encoding': {'y': {'field': 'Mortality Rate (per 1000 live birth or children)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-77.png,"{'encoding': {'y': {'field': 'Rating (1=low 6=high)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-78.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': 'Net enrolment rate(%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-79.png,"{'encoding': {'y': {'field': 'Revenue generated (in %)', 'type': 'quantitative'}, 'x': {'field': 'Source of revenue', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-80.png,"{'encoding': {'y': {'field': 'Value added (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-81.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Amount (in current US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-82.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Earning(%)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-83.png,"{'encoding': {'y': {'field': ' Unmet need for contraception(% of married women ages 15-49)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-84.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Emissions(metric tons per capita)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-85.png,"{'encoding': {'y': {'field': 'Rating of statistical capacity (0-100)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-86.png,"{'encoding': {'y': {'field': 'Country', 'type': 'nominal'}, 'x': {'field': 'HIV infected population (in %)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-87.png,"{'encoding': {'y': {'field': 'Population (in %)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-88.png,"{'encoding': {'y': {'field': 'Income share held (as % of total income)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-89.png,"{'encoding': {'y': {'field': 'Term of debt', 'type': 'nominal'}, 'x': {'field': 'Amount (in current US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-90.png,"{'encoding': {'y': {'field': 'Total Labor Force (in %)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-91.png,"{'encoding': {'y': {'field': 'Aid flow (current US$)', 'type': 'quantitative'}, 'x': {'field': 'Years', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-92.png,"{'encoding': {'y': {'field': 'Rating (1=low 6=high)', 'type': 'quantitative'}, 'x': {'field': 'Country', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-93.png,"{'encoding': {'y': {'field': 'Income share held (as % of total income)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'point', 'data': {'url': '<url>'}}"
-94.png,"{'encoding': {'y': {'field': 'Years', 'type': 'quantitative'}, 'x': {'field': 'Price (US$ per liter)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
-95.png,"{'encoding': {'y': {'field': 'Enrollment rate (%)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-96.png,"{'encoding': {'y': {'field': 'Total Labor Force (in %)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-97.png,"{'encoding': {'y': {'field': 'Value added (constant Local Currency Unit)', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'quantitative'}}, 'mark': 'line', 'data': {'url': '<url>'}}"
-98.png,"{'encoding': {'y': {'field': 'Amount spent (in US$)', 'type': 'quantitative'}, 'x': {'field': 'Items', 'type': 'nominal'}}, 'mark': 'bar', 'data': {'url': '<url>'}}"
-99.png,"{'encoding': {'y': {'field': 'Year', 'type': 'quantitative'}, 'x': {'field': 'Amount exported (in US$)', 'type': 'quantitative'}}, 'mark': 'bar2', 'data': {'url': '<url>'}}"
+0.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+1.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Rating (1=underdeveloped to 7=well developed) </field></y>
+2.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Under 5 mortality rate (per 1000 live births)</field></y>
+3.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount (in current US$)</field></x><y><type>quantitative</type><field>Year</field></y>
+4.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Expenditure (as % of GNI)</field></y>
+5.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Expenditure(as % of GDP)</field></y>
+6.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount (in US$)</field></x><y><type>quantitative</type><field>Year</field></y>
+7.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Primary income (current US$)</field></y>
+8.png,<mark>bar2</mark><x><type>quantitative</type><field>% of GDP</field></x><y><type>nominal</type><field>Inverstment/savings</field></y>
+9.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Unemployed and educated male labor force (% of population)</field></y>
+10.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Trade with economies of Sub-Saharan Africa(%)</field></y>
+11.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Personal remittance (current US$)</field></y>
+12.png,<mark>bar2</mark><x><type>quantitative</type><field>% of urban population</field></x><y><type>nominal</type><field>Country</field></y>
+13.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Net enrolment rate(%)</field></y>
+14.png,<mark>bar</mark><x><type>nominal</type><field>Age group</field></x><y><type>quantitative</type><field>Total Labor Force (in %)</field></y>
+15.png,<mark>bar2</mark><x><type>quantitative</type><field>Gross enrolment ratio (%)</field></x><y><type>quantitative</type><field>Year</field></y>
+16.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Net Energy imports(% of energy use)</field></y>
+17.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Pupil-teacher ratio(headcount basis)</field></y>
+18.png,<mark>bar2</mark><x><type>quantitative</type><field>BoP (in US$)</field></x><y><type>nominal</type><field>Type of accounts</field></y>
+19.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Number of flight takeoffs</field></y>
+20.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Number of power outages</field></y>
+21.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Average precipitation (mm )</field></y>
+22.png,<mark>bar2</mark><x><type>quantitative</type><field>Number of documents required</field></x><y><type>nominal</type><field>Trade</field></y>
+23.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Revenue generated (as % of GDP)</field></y>
+24.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Unemployed males (as % of male labor force)</field></y>
+25.png,<mark>bar2</mark><x><type>quantitative</type><field>Gross enrolment ratio (%)</field></x><y><type>quantitative</type><field>Years</field></y>
+26.png,<mark>bar2</mark><x><type>quantitative</type><field>No. of subscribers (per 100 people)</field></x><y><type>nominal</type><field>Type of subscription</field></y>
+27.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Rating index(maximum value in 2004 = 100)</field></y>
+28.png,<mark>bar2</mark><x><type>quantitative</type><field>% of firms</field></x><y><type>nominal</type><field>Firms</field></y>
+29.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+30.png,<mark>bar2</mark><x><type>quantitative</type><field>Literacy rate(%)</field></x><y><type>quantitative</type><field>Year</field></y>
+31.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Mortality Rate (per 1000 live birth or children)</field></y>
+32.png,<mark>bar</mark><x><type>nominal</type><field>Type of population</field></x><y><type>quantitative</type><field>Population (in % of total)</field></y>
+33.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Expenditure(% of government expenditure on education)</field></y>
+34.png,<mark>bar2</mark><x><type>quantitative</type><field>Aid flow from UN agencies (US$)</field></x><y><type>quantitative</type><field>Years</field></y>
+35.png,<mark>bar2</mark><x><type>quantitative</type><field>Growth rate (annual %)</field></x><y><type>nominal</type><field>Money growth type</field></y>
+36.png,<mark>bar2</mark><x><type>quantitative</type><field>% of firms</field></x><y><type>nominal</type><field>Firms</field></y>
+37.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Percentage of repeaters (%)</field></y>
+38.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Emissions(kt)</field></y>
+39.png,<mark>bar2</mark><x><type>quantitative</type><field>Persistence rate to the last grade of primary education (%)</field></x><y><type>quantitative</type><field>Years</field></y>
+40.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Electricity production(% of total)</field></y>
+41.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Debt(current US$)</field></y>
+42.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Rating (1=low 6=high)</field></y>
+43.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Gross enrolment ratio (%)</field></y>
+44.png,<mark>bar</mark><x><type>nominal</type><field>Education background</field></x><y><type>quantitative</type><field>% of children employment</field></y>
+45.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>% of repeaters</field></y>
+46.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Earnings(current US$)</field></y>
+47.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Unemployed Males (% of male labor force)</field></y>
+48.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Persistence rate to the last grade of primary education (%)</field></y>
+49.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Tax (as % of commercial profit)</field></y>
+50.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Gross intake ratio(%)</field></y>
+51.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount(current US$)</field></x><y><type>quantitative</type><field>Years</field></y>
+52.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Grants(current US$)</field></y>
+53.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Expenditure(as % of GDP)</field></y>
+54.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Payments(% of exports of goods services and primary income)</field></y>
+55.png,<mark>bar</mark><x><type>nominal</type><field>Sex</field></x><y><type>quantitative</type><field>Active population (% of total population)</field></y>
+56.png,<mark>bar</mark><x><type>nominal</type><field>Categories of statistical system</field></x><y><type>quantitative</type><field>Rating of statistical capacity (0-100)</field></y>
+57.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Income share held (as % of total income)</field></y>
+58.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Number of applications</field></y>
+59.png,<mark>bar2</mark><x><type>quantitative</type><field>% of GDP</field></x><y><type>nominal</type><field>Country</field></y>
+60.png,<mark>bar</mark><x><type>nominal</type><field>Merchandise Trading</field></x><y><type>quantitative</type><field>Trade with economies in the Arab World(%)</field></y>
+61.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Internet users (% of population)</field></y>
+62.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Gross intake ratio(%)</field></y>
+63.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Number of total applications</field></y>
+64.png,<mark>bar2</mark><x><type>quantitative</type><field>Success rate(as % of new cases)</field></x><y><type>nominal</type><field>Country</field></y>
+65.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>General Parity Index (GPI)</field></y>
+66.png,<mark>bar2</mark><x><type>quantitative</type><field> % of children under 5</field></x><y><type>nominal</type><field>Country</field></y>
+67.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Secondary income (in US$)</field></y>
+68.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Earning(%)</field></y>
+69.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Electricity production(% of total)</field></y>
+70.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Expenditure (as % of GDP per capita)</field></y>
+71.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Number of children</field></y>
+72.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Aid received (current US$)</field></y>
+73.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Population (in % of total population)</field></y>
+74.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Value added (current US$)</field></y>
+75.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Health expenditure (as % of GDP)</field></y>
+76.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Mortality Rate (per 1000 live birth or children)</field></y>
+77.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Rating (1=low 6=high)</field></y>
+78.png,<mark>bar2</mark><x><type>quantitative</type><field>Net enrolment rate(%)</field></x><y><type>nominal</type><field>Country</field></y>
+79.png,<mark>bar</mark><x><type>nominal</type><field>Source of revenue</field></x><y><type>quantitative</type><field>Revenue generated (in %)</field></y>
+80.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Value added (current US$)</field></y>
+81.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount (in current US$)</field></x><y><type>quantitative</type><field>Year</field></y>
+82.png,<mark>bar2</mark><x><type>quantitative</type><field>Earning(%)</field></x><y><type>quantitative</type><field>Years</field></y>
+83.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field> Unmet need for contraception(% of married women ages 15-49)</field></y>
+84.png,<mark>bar2</mark><x><type>quantitative</type><field>Emissions(metric tons per capita)</field></x><y><type>quantitative</type><field>Years</field></y>
+85.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Rating of statistical capacity (0-100)</field></y>
+86.png,<mark>bar2</mark><x><type>quantitative</type><field>HIV infected population (in %)</field></x><y><type>nominal</type><field>Country</field></y>
+87.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Population (in %)</field></y>
+88.png,<mark>line</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Income share held (as % of total income)</field></y>
+89.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount (in current US$)</field></x><y><type>nominal</type><field>Term of debt</field></y>
+90.png,<mark>point</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Total Labor Force (in %)</field></y>
+91.png,<mark>bar</mark><x><type>quantitative</type><field>Years</field></x><y><type>quantitative</type><field>Aid flow (current US$)</field></y>
+92.png,<mark>bar</mark><x><type>nominal</type><field>Country</field></x><y><type>quantitative</type><field>Rating (1=low 6=high)</field></y>
+93.png,<mark>point</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Income share held (as % of total income)</field></y>
+94.png,<mark>bar2</mark><x><type>quantitative</type><field>Price (US$ per liter)</field></x><y><type>quantitative</type><field>Years</field></y>
+95.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Enrollment rate (%)</field></y>
+96.png,<mark>bar</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Total Labor Force (in %)</field></y>
+97.png,<mark>line</mark><x><type>quantitative</type><field>Year</field></x><y><type>quantitative</type><field>Value added (constant Local Currency Unit)</field></y>
+98.png,<mark>bar</mark><x><type>nominal</type><field>Items</field></x><y><type>quantitative</type><field>Amount spent (in US$)</field></y>
+99.png,<mark>bar2</mark><x><type>quantitative</type><field>Amount exported (in US$)</field></x><y><type>quantitative</type><field>Year</field></y>
