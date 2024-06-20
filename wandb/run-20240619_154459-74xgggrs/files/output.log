@@ -1,0 +1,85 @@
+Epoch:  0
+Aproximadamente quedan: 0.0 horas.
+---------------------------------------------------------------------------------------------------------
+ [1m(0)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': 'Housing Prices', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 18}, {'x': 1, 'y': 66}, {'x': 2, 'y': 64}, {'x': 3, 'y': 12}]}}
+[31m # Plot the scatter plot with the x axis and y axis<0x0A>fig, ax = plt.subplots(figsize=(8,8))<0x0A>ax.scatter(x=df['housing'], y=df['price'], s=100)<0x0A>ax.set_ylim(0,70)<0x0A>ax.set_xlim(0,3.1)<0x0A>ax.set_ylabel('Housing Prices')<0x0A>ax.set_xticks(np.arange(0,3.1,0.5))<0x0A>ax.set_yticks(np.arange(0,70,0.5))<0x0A>ax.spines['right'].set_visible(False)<0x0A>ax.spines['top'].set_visible(False)<0x0A>ax.spines['bottom'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['bottom'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['bottom'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible(False)<0x0A>ax.spines['left'].set_visible( 
+---------------------------------------------------------------------------------------------------------
+ [1m(1)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': 'Profit', 'type': 'ordinal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 77}, {'x': 1, 'y': 9}, {'x': 2, 'y': 50}, {'x': 3, 'y': 49}, {'x': 4, 'y': 77}, {'x': 5, 'y': 60}, {'x': 6, 'y': 68}]}}
+[31m # Plot the data<0x0A>df.groupby('Profit')['Profit'].agg(['sum']).plot.bar(color='#006699',figsize=(8,8)) 
+---------------------------------------------------------------------------------------------------------
+ [1m(2)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'line', 'encoding': {'x': {'field': 'Wholesale Price', 'type': 'temporal'}, 'y': {'field': 'Income', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 97}, {'x': 1, 'y': 35}, {'x': 2, 'y': 99}, {'x': 3, 'y': 83}, {'x': 4, 'y': 44}, {'x': 5, 'y': 15}, {'x': 6, 'y': 38}, {'x': 7, 'y': 56}, {'x': 8, 'y': 21}]}}
+[31m fig = plt.figure(figsize=(10,10))<0x0A>ax = fig.add_subplot(111)<0x0A><0x0A>ax.set_ylim(0,100)<0x0A>ax.set_xlim(0,100)<0x0A><0x0A>ax.set_xlabel('Wholesale Price', fontsize=14)<0x0A>ax.set_ylabel('Income', fontsize=14)<0x0A>ax.set_yticks(np.arange(0,100,10))<0x0A>ax.set_yticklabels(['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','', 
+---------------------------------------------------------------------------------------------------------
+ [1m(3)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'line', 'encoding': {'x': {'field': '', 'type': 'temporal'}, 'y': {'field': 'Internet Usage', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 98}, {'x': 1, 'y': 23}, {'x': 2, 'y': 65}, {'x': 3, 'y': 14}, {'x': 4, 'y': 81}, {'x': 5, 'y': 39}, {'x': 6, 'y': 82}, {'x': 7, 'y': 65}, {'x': 8, 'y': 78}]}}
+[31m # Plot the graph<0x0A>plt.figure(figsize=(8,8))<0x0A>plt.plot(df['Internet_Usage'], linewidth=0.5)<0x0A>plt.ylim(0,100)<0x0A>plt.ylabel('Internet Usage')<0x0A>plt.xticks(fontsize=12)<0x0A>plt.yticks(fontsize=12)<0x0A>plt.xlim(.008,.008)<0x0A>plt.ylim(0,100)<0x0A>plt.show() 
+---------------------------------------------------------------------------------------------------------
+ [1m(4)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'ordinal'}, 'y': {'field': 'Water Usage', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 1}, {'x': 1, 'y': 77}, {'x': 2, 'y': 42}, {'x': 3, 'y': 63}, {'x': 4, 'y': 3}, {'x': 5, 'y': 15}, {'x': 6, 'y': 47}, {'x': 7, 'y': 40}, {'x': 8, 'y': 31}]}}
+[31m # Plot the data<0x0A>plt.figure(figsize=(8,8))<0x0A>plt.bar(x=df['Water Usage'], height=df['Water Usage'])<0x0A>plt.ylabel('Water Usage')<0x0A>plt.xticks(x=df['Water Usage'])<0x0A>plt.ylim(0,80)<0x0A>plt.show() 
+---------------------------------------------------------------------------------------------------------
+ [1m(5)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'ordinal'}, 'y': {'field': 'Job Vacancies', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 9}, {'x': 1, 'y': 98}, {'x': 2, 'y': 69}, {'x': 3, 'y': 99}, {'x': 4, 'y': 17}, {'x': 5, 'y': 17}, {'x': 6, 'y': 85}, {'x': 7, 'y': 61}]}}
+[31m #plotting the graph<0x0A>plt.figure(figsize=(6,8))<0x0A>sns.barplot(x=df['Job Vacancies'],y=df['Job Vacancies'])<0x0A>plt.xticks(rotation=90)<0x0A>plt.ylabel('Job Vacancies')<0x0A>plt.xlabel('')<0x0A>plt.ylim(0,100)<0x0A>plt.show() 
+---------------------------------------------------------------------------------------------------------
+ [1m(6)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'circle', 'encoding': {'x': {'field': 'Birth Rate', 'type': 'quantitative'}, 'y': {'field': 'Interquartile Range', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 70}, {'x': 1, 'y': 97}, {'x': 2, 'y': 94}, {'x': 3, 'y': 89}]}}
+[31m # Plot the Birth Rate vs Interquartile Range<0x0A><0x0A>fig = plt.figure(figsize=(6,6))<0x0A>ax = fig.add_subplot(111)<0x0A>ax.scatter(x=df['Birth Rate'], y=df['Interquartile Range'], alpha=0.7)<0x0A>ax.set_xlabel('Birth Rate', fontsize=14)<0x0A>ax.set_ylabel('Interquartile Range', fontsize=14)<0x0A>ax.set_ylim(0,100)<0x0A>ax.set_xticks(np.arange(0, 4.5, 0.5))<0x0A>ax.set_xticklabels(df['Birth Rate'])<0x0A>ax.set_yticks(np.arange(0, 100, 0.5))<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_ylim(0,100)<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_xticklabels(df['Birth Rate'])<0x0A>ax.set_xticklabels(df['Birth Rate'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set_yticklabels(df['Interquartile Range'])<0x0A>ax.set 
+---------------------------------------------------------------------------------------------------------
+ [1m(7)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': 'Sleep Duration', 'type': 'ordinal'}, 'y': {'field': 'Mode Age', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 57}, {'x': 1, 'y': 67}, {'x': 2, 'y': 58}, {'x': 3, 'y': 16}, {'x': 4, 'y': 32}, {'x': 5, 'y': 29}]}}
+[31m # Plot the distribution of sleep duration<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A>fig, ax = plt.subplots(figsize=(6, 6))<0x0A><0x0A>sns.barplot(x="Sleep Duration", y="Mode Age", data=sleep_duration_df, ax=ax)<0x0A><0x0A>ax.set_xticklabels(sleep_duration_df.index, rotation=90)<0x0A><0x0A>ax.set_ylabel("Mode Age")<0x0A>ax.set_xlabel("Sleep Duration")<0x0A><0x0A>plt.show() 
+---------------------------------------------------------------------------------------------------------
+ [1m(8)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': 'Happiness Index', 'type': 'ordinal'}, 'y': {'field': 'Height', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 1}, {'x': 1, 'y': 10}, {'x': 2, 'y': 91}, {'x': 3, 'y': 81}]}}
+[31m fig, ax = plt.subplots(1, 2, figsize=(5, 6))<0x0A><0x0A>ax[0].bar(x=df_happiness.index, height=df_happiness.height)<0x0A>ax[0].set_ylim(0, 100)<0x0A>ax[0].set_xticks(np.arange(df_happiness.index.min(), df_happiness.index.max()+1))<0x0A>ax[0].set_xticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set_xlabel('Happiness Index')<0x0A>ax[0].set_ylabel('Height')<0x0A>ax[0].set_yticks(np.arange(0, 100, 10))<0x0A>ax[0].set_yticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set_xticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set_yticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set_ylim(0, 100)<0x0A>ax[0].set_xticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set_yticklabels(df_happiness.index.min(), df_happiness.index.max()+1)<0x0A>ax[0].set 
+---------------------------------------------------------------------------------------------------------
+ [1m(9)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'ordinal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 66}, {'x': 1, 'y': 31}]}}
+[31m # 1. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 2. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 3. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 4. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 5. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 6. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 7. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 8. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 9. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 10. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 11. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A># 12. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A><0x0A># 13. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A><0x0A># 14. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A><0x0A># 15. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A><0x0A># 16. 데이터 <0xEC><0x9D><0xBD>기<0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A> 
+[31m---------------- RESULTS --------------------
+[31maccuracy structure : 0.0 
+[31maccuracy mark type : 0.0 
+[31maccuracy var types (x) : 0.0
+[31maccuracy var types (y) : 0.0 
+[31maccuracy var names (x) : 0.0
+[31maccuracy var names (y) : 0.0
+[31m---------------------------------------------
+[31maccuracies test:  [0.0] 
+[31mEpoch:  1
+[31mEpoch:  2
+[31mEpoch:  3
+[31mEpoch:  4
+[31mEpoch:  5
+---------------------------------------------------------------------------------------------------------
+ [1m(0)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': 'Housing Prices', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 18}, {'x': 1, 'y': 66}, {'x': 2, 'y': 64}, {'x': 3, 'y': 12}]}}
+[31m # Create a scatter plot of the boston housing data<0x0A>housing_data.plot(kind='scatter', x='longitude', y='price', figsize=(8,8), color='steelblue')<0x0A>plt.show() 
+---------------------------------------------------------------------------------------------------------
+ [1m(1)   [22mMARK: [36m 0.0 [39m TYPE-X: [36m 0.0 [39m TYPE-Y: [36m 0.0 [39m NAME-X: [36m 0.0 [39m NAME-Y: [36m 0.0 
+[32m {'mark': 'bar', 'encoding': {'x': {'field': 'Profit', 'type': 'ordinal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 0, 'y': 77}, {'x': 1, 'y': 9}, {'x': 2, 'y': 50}, {'x': 3, 'y': 49}, {'x': 4, 'y': 77}, {'x': 5, 'y': 60}, {'x': 6, 'y': 68}]}}
+[31m Profit_df.plot(kind='bar', figsize=(8, 8), color='#003366')<0x0A>plt.xlabel('Profit')<0x0A>plt.ylabel('')<0x0A>plt.xticks(rotation=90)<0x0A>plt.yticks(rotation=0)<0x0A>plt.show() 
+[31mToken will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+[31mToken is valid (permission: write).
+[31mYour token has been saved to /home/msinnona/.cache/huggingface/token
+[31mLogin successful
+[31mTRAIN:
+[31m Dataset({
+[31m    features: ['image', 'text'],
+[31m    num_rows: 2000
+[31m}) 
+[31mTEST:
+[31m Dataset({
+[31m    features: ['image', 'text'],
+[31m    num_rows: 100
+[31m}) 
+[31mWEB:
+[31m Dataset({
+[31m    features: ['image', 'text'],
+[31m    num_rows: 37
+[31m}) 
+[31m --------> using model base: google/matcha-base <--------
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
