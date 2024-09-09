@@ -1,0 +1,5 @@
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/msinnona/.cache/huggingface/token
+Login successful
+5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d6.29.35dc3a68c-e34e-4080-9c3e-2a532b2ccb4d
