@@ -1,3 +1,4 @@
 
 *.png
+models/
 data/annotations.json
