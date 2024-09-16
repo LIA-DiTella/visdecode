@@ -1,0 +1,2 @@
+file_name,text
+21407.png,"{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'ordinal'}, 'y': {'field': 'Annual freshwater withdrawals (% of internal resources)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1997', 'y': 52.32}, {'x': '2002', 'y': 30.61}, {'x': '2007', 'y': 32.2}, {'x': '2012', 'y': 32.85}, {'x': '2013', 'y': 32.85}]}}"
