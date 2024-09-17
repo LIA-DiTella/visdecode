@@ -1,6 +1,7 @@
 from transformers import AutoProcessor, Pix2StructForConditionalGeneration
 from huggingface_hub import snapshot_download
 import os
+from tqdm import tqdm
 
 MAX_LENGTH = 600
 
@@ -27,20 +28,18 @@ def load_model(owner, model_name, device):
 
     return processor, model
 
-def generate(processor, model, image, device):
+def generate(processor, model, images, device):
 
-    model.eval()
-    inputs = processor(images = image, return_tensors = "pt", max_patches = 1024).to(device)
+    outputs = []
 
-    tokens = model.generate(flattened_patches = inputs.flattened_patches, attention_mask = inputs.attention_mask, max_length = MAX_LENGTH)
-    output = processor.batch_decode(tokens, skip_special_tokens = True)[0]
+    for image in tqdm(images):
 
-    return output
+        model.eval()
+        inputs = processor(images = image, return_tensors = "pt", max_patches = 1024).to(device)
 
-def eval_model(processor, model, images, texts_gt, device):
+        tokens = model.generate(flattened_patches = inputs.flattened_patches, attention_mask = inputs.attention_mask, max_length = MAX_LENGTH)
+        output = processor.batch_decode(tokens, skip_special_tokens = True)[0]
 
-    outputs = [generate(processor, model, image, device) for image in images]
+        outputs.append(output)
 
-    
-
-    return outputs[0]
+    return outputs
