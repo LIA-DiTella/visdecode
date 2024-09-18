@@ -1,0 +1,162 @@
+Age  
+Income  
+Height  
+Weight  
+Temperature  
+Pressure  
+Time  
+Speed  
+Distance  
+Population  
+GDP  
+Inflation  
+Unemployment  
+Sales  
+Profit  
+Revenue  
+Expenses  
+Cost  
+Interest Rate  
+Return Rate  
+Growth Rate  
+Birth Rate  
+Death Rate  
+Crime Rate  
+Literacy Rate  
+Employment Rate  
+Mortality Rate  
+Life Expectancy  
+Median Income  
+Mean Income  
+Mode Income  
+Standard Deviation  
+Variance  
+Range  
+Interquartile Range  
+Skewness  
+Kurtosis  
+Median Age  
+Mean Age  
+Mode Age  
+Education Level  
+Years Of Experience  
+Satisfaction Score  
+Happiness Index  
+Health Index  
+Pollution Level  
+CO2 Emissions  
+Energy Consumption  
+Water Usage  
+Recycling Rate  
+Poverty Rate  
+Migration Rate  
+Crime Index  
+Quality Of Life  
+Housing Prices  
+Rent Prices  
+Mortgage Rates  
+Loan Amount  
+Debt Level  
+Savings Rate  
+Investment  
+Dividends  
+Stock Price  
+Bond Yield  
+Currency Exchange  
+Trade Balance  
+Export Volume  
+Import Volume  
+Manufacturing Output  
+Retail Sales  
+Wholesale Price  
+Consumer Price Index  
+Producer Price Index  
+Job Vacancies  
+Labor Force  
+Participation Rate  
+Commute Time  
+Fuel Consumption  
+Vehicle Miles  
+Accident Rate  
+Insurance Premium  
+Hospital Admissions  
+Disease Prevalence  
+Vaccination Rate  
+Drug Use  
+Alcohol Consumption  
+Smoking Rate  
+Exercise Frequency  
+Diet Quality  
+Mental Health  
+Stress Level  
+Sleep Duration  
+Screen Time  
+Internet Usage  
+Social Media Activity  
+Mobile Phone Usage  
+App Downloads  
+Software Updates  
+Bug Reports  
+Customer Reviews
+Average Monthly Rainfall (mm) in Coastal Areas by Region
+Median Household Income $ by Urbanization Level and Region
+Relative Frequency of Age Groups by Educational Attainment
+Standard Error of the Mean ± Confidence Interval (95%)
+Proportion of Respondents Supporting Policy Change by Country
+Cumulative Distribution Function of Income Percentiles
+Average Daily Energy Consumption (kWh) by Appliance Type
+Percentage Change in Employment Rate by Industry Sector
+Normalized Residuals vs Predicted Values for Regression Model
+Probability Density Function for Reaction Time (seconds)
+Mean Annual Temperature Deviation Corrected For Seasonal Variations
+Standard Deviation Of National GDP Growth Rates Over 5 Years
+Percentage Change In Unemployment Rate Compared To Previous Year
+Correlation Coefficient Between Air Pollution Levels And Respiratory Diseases
+Median Household Income Indexed By Regional Inflation Rates
+Adjusted R Squared For Linear Regression Model With Heteroscedasticity
+Confidence Interval Of Proportion Estimates In Clinical Trials
+Variance Explained By The First Two Principal Components
+Log Transformed Peak Demand During Holiday Seasons At Retail Stores
+Normalized Mean Square Error Of Forecasted Versus Actual Sales
+Cumulative Probability Distribution Of Rainfall Amounts Over A Decade
+Rate Of Change In Consumer Price Index Over Quarterly Business Reports
+Expected Value Of Stock Investment Returns Considering Market Fluctuations
+Distribution Frequency Of Employee Salaries In The Technology Industry
+Impact Factor Of Scientific Journals Over Five Years Of Publication
+Bootstrap Resampling Estimates Of Standard Error For Biomarker Data
+Kurtosis And Skewness Of Annual Corporate Profit Margins
+Percentile Rank Of Student Achievement Scores In National Exams
+Exponential Moving Average Of Daily Crude Oil Prices Over 12 Months
+Probability Density Function Of Age Distribution In Population Survey
+Temporal Trend Analysis Of Gross Domestic Product Over Thirty Years
+Quantile Regression Estimates Of Salary By Experience Level
+Coefficient Of Variation In Agricultural Yields Over Different Seasons
+Outlier Detection Methods In Sales Data For Anomalies
+Impact Of Temperature Variability On Crop Yield Statistics
+Measurement Error Analysis In Laboratory Testing Procedures
+Lag Correlation Of Financial Indices With Leading Economic Indicators
+Predictive Accuracy Of Seasonal Demand Forecasting Models
+Relative Risk Assessment Of Health Outcomes In Demographic Studies
+Distributions Of Voter Turnout Among Various Income Brackets
+Normalization Factors For Comparing Multi Year Economic Indicators
+Comparison Of Median Income Between Urban And Rural Areas
+Simulation Results Of Variable Interest Rates On Bond Prices
+Heterogeneity In Clinical Trial Populations By Gender And Age
+Estimation Of Market Share For New Products Using Consumer Surveys
+Assessment Of Healthcare Utilization Rates By Demographic Groups
+Interquartile Range Of Daily Temperature Fluctuations Over A Year
+Trend Analysis Of Annual Median House Prices In Metropolitan Areas
+Probabilistic Modeling Of Financial Risks In Investment Portfolios
+Clustering Results Of Patient Health Data By Treatment Outcomes
+Change In Average Life Expectancy Over Centuries By Geographic Region
+Impact Estimates Of Air Quality On Public Health Expenses
+Residual Analysis Of Fitted Models In Epidemiological Studies
+Sensitivity Analysis Of Forecast Accuracy In Consumer Demand Models
+Effectiveness Of Intervention Programs On Youth Crime Rates
+Normalization Of Precipitation Data By Average Seasonal Levels
+Factors Affecting Student Performance In Standardized Testing
+Trend Line Fitting For Annual Scholarship Funding Allocations
+Simulation Of Monetary Policy Changes On Economic Growth Rates
+Median Income Across Ethnic Groups Over Five Decades
+Risk Assessment For Investment Decisions Using Monte Carlo Simulations
+Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
