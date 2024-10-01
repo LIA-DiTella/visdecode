@@ -20,13 +20,13 @@ RESET = "\033[0m"
 
 BOLD = "\033[1m"
 
-EPOCHS = 30
+EPOCHS = 50
 EVAL_STEP = 5
 MODEL = "visdecode_D"
 TRAIN_MODEL = "google/matcha-base"
 MAX_PATCHES = 1024
-UPLOAD_METRICS = False
-MAX_ACCURACY_TEST = 0.5
+UPLOAD_METRICS = True
+MAX_ACCURACY_TEST = 0.3
 MAX_LENGTH = 600
 
 login(token = "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")
@@ -35,7 +35,7 @@ seed = 14895215085708117999
 torch.manual_seed(seed)
 
 visdecode_dataset_train = load_dataset("martinsinnona/visdecode", split = "train")
-visdecode_dataset_test = load_dataset("martinsinnona/plotqa", split = "test")
+visdecode_dataset_test = load_dataset("martinsinnona/plotqa", split = "validation")
 
 visdecode_dataset_test2 = load_dataset("martinsinnona/visdecode_web", split = "test")
 visdecode_dataset_test3 = load_dataset("martinsinnona/plotqa", split = "test")
@@ -347,7 +347,7 @@ for epoch in range(EPOCHS + 1):
         #acc_mark_type, acc_var_types  = eval_model(visdecode_dataset_test, print_output = True)
         #acc_mark_type_plotqa, acc_var_types_plotqa  = eval_model(visdecode_dataset_test3)
 
-        acc_mark_type, acc_var_types_x, acc_var_types_y, acc_var_names_x, acc_var_names_y, acc_structure = eval_model(visdecode_dataset_test3, print_output = True)
+        acc_mark_type, acc_var_types_x, acc_var_types_y, acc_var_names_x, acc_var_names_y, acc_structure = eval_model(visdecode_dataset_test, print_output = True)
 
         accuracy_test = min(acc_mark_type, acc_var_types_x, acc_var_types_y, acc_var_names_x, acc_var_names_y)   # CRITERIO PARA PUSHEAR A HUGGING FACE <----------------------------------------------------------
             
