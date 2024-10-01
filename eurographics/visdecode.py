@@ -5,6 +5,7 @@ from tqdm import tqdm
 import numpy as np
 import Levenshtein
 from colors import *
+import json
 
 MAX_LENGTH = 600
 
@@ -254,3 +255,10 @@ def eval(texts, gt_texts):
     print(bold(magenta("------------------------------------------------------------------------------------------------------------------------\n")))
 
     return metrics
+
+def eval_model(processor, model, dataset, device):
+
+    texts = generate(processor, model, dataset[:]["image"], device)
+    gt_texts = dataset[:]["text"]
+
+    return eval(texts, gt_texts)
