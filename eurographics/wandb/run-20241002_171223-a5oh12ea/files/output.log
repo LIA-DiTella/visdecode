@@ -1,0 +1,157 @@
+
+[36m[1mEpoch :[39m[22m 0 [32m[1m | Loss :[39m[22m 2.4379069805145264
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|█████████▌| 19/20 [01:27<00:05,  5.51s/it]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.71 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.9 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': 'Time', 'type': 'quantitative'}}, 'data': {'values': [{'x': 5553, 'y': 143}, {'x': 2468, 'y': 143}, {'x': 5553, 'y': 1430}, {'x': 4319, 'y': 1001}, {'x': 2468, 'y': 143}, {'x': 4936, 'y': 286}, {'x': 6170, 'y': 286}, {'x': 3085, 'y': 286}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': 'Time', 'type': 'quantitative'}}, 'data': {'values': [{'x': 3300, 'y': 1440}, {'x': 4000, 'y': 1440}, {'x': 5000, 'y': 1440}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': '', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1898, 'y': 1100}, {'x': 1902, 'y': 2750}, {'x': 1906, 'y': 1100}, {'x': 1910, 'y': 5500}, {'x': 1914, 'y': 5500}, {'x': 1918, 'y': 2200}]}}
+{'mark': 'line', 'encoding': {'x': {'field': '', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1900, 'y': 2720}, {'x': 1905, 'y': 1100}, {'x': 1910, 'y': 5470}, {'x': 1915, 'y': 2170}, {'x': 1915, 'y': 5470}, {'x': 1915, 'y': 2170}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Loan Amount', 'type': 'temporal'}, 'y': {'field': 'Stress Level', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1912, 'y': 6.41}, {'x': 1918, 'y': 387.34}, {'x': 1924, 'y': 427.36}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Loan Amount', 'type': 'temporal'}, 'y': {'field': 'Stress Level', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1912, 'y': 0}, {'x': 1914, 'y': 128.14}, {'x': 1916, 'y': 128.14}, {'x': 1918, 'y': 384.14}, {'x': 1920, 'y': 428.14}, {'x': 1922, 'y': 428.14}, {'x': 1924, 'y': 428.14}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1734, 'y': 4878}, {'x': 1156, 'y': 1084}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1000, 'y': 1000}, {'x': 1000, 'y': 1000}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'nominal'}, 'y': {'field': 'Factors Affecting Student Performance In Standardized Testing', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 1035}, {'x': 'USA', 'y': 345}, {'x': 'Dog', 'y': 1035}, {'x': 'Nike', 'y': 690}, {'x': 'Apple', 'y': 690}, {'x': 'Male', 'y': 1035}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Factors Affecting Student Performance In Standardized Testing', 'type': 'nominal'}, 'y': {'field': 'Factors Affecting Student Performance In Standardized Testing', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 1030}, {'x': 'USA', 'y': 340}, {'x': 'Dog', 'y': 1030}, {'x': 'Nike', 'y': 680}, {'x': 'Apple', 'y': 680}, {'x': 'Male', 'y': 1030}, {'x': 'Red', 'y': 1030}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 7152, 'y': 3324}, {'x': 3576, 'y': 5817}, {'x': 3576, 'y': 831}, {'x': 7152, 'y': 5817}, {'x': 5364, 'y': 3324}, {'x': 4470, 'y': 1662}, {'x': 3576, 'y': 4155}, {'x': 3576, 'y': 1662}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': '', 'type': 'quantitative'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 4, 'y': 1620}, {'x': 6, 'y': 3330}, {'x': 8, 'y': 5780}, {'x': 1620, 'y': 5780}, {'x': 8, 'y': 5780}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Fuel Consumption', 'type': 'nominal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 280}, {'x': 'USA', 'y': 400}, {'x': 'Dog', 'y': 360}, {'x': 'Nike', 'y': 400}, {'x': 'Apple', 'y': 280}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Fuel Consumption', 'type': 'nominal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 281.19}, {'x': 'USA', 'y': 400.29}, {'x': 'Dog', 'y': 357.19}, {'x': 'Nike', 'y': 398.19}, {'x': 'Dog', 'y': 357.19}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': '', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1886, 'y': 424.89}, {'x': 1893, 'y': 424.89}, {'x': 1900, 'y': 426.14}, {'x': 1907, 'y': 445.52}]}}
+{'mark': 'line', 'encoding': {'x': {'field': '', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1888, 'y': 421.69}, {'x': 1890, 'y': 421.69}, {'x': 1895, 'y': 421.69}, {'x': 1900, 'y': 421.69}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Mental Health', 'type': 'temporal'}, 'y': {'field': 'Currency Exchange', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1811, 'y': 604.69}, {'x': 1817, 'y': 317.51}, {'x': 1823, 'y': 317.51}, {'x': 1829, 'y': 143.39}, {'x': 1835, 'y': 312.01}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Mental Health', 'type': 'temporal'}, 'y': {'field': 'Currency Exchange', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1810, 'y': 600.00}, {'x': 1815, 'y': 182.00}, {'x': 1825, 'y': 260.00}, {'x': 1835, 'y': 310.00}, {'x': 1835, 'y': 310.00}, {'x': 1835, 'y': 310.00}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Fuel Consumption', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1859, 'y': 2360}, {'x': 1868, 'y': 2360}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Fuel Consumption', 'type': 'quantitative'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1860, 'y': 2300}, {'x': 1862, 'y': 1864}, {'x': 1864, 'y': 1866}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'nominal'}, 'y': {'field': 'Median Household Income Indexed By Regional Inflation Rates', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 252.19}, {'x': 'USA', 'y': 461.86}, {'x': 'Dog', 'y': 808.14}, {'x': 'Nike', 'y': 533.08}, {'x': 'Apple', 'y': 461.86}, {'x': 'Male', 'y': 699.85}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'nominal'}, 'y': {'field': 'Median Household Income Indexed By Regional Inflation Rates', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 250.06}, {'x': 'USA', 'y': 460.06}, {'x': 'Dog', 'y': 810.06}, {'x': 'Nike', 'y': 527.06}, {'x': 'Apple', 'y': 460.06}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Smoking Rate', 'type': 'nominal'}, 'y': {'field': 'Probability Density Function for Reaction Time (seconds)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 568}, {'x': 'USA', 'y': 568}, {'x': 'Dog', 'y': 994}, {'x': 'Nike', 'y': 994}, {'x': 'Apple', 'y': 1136}, {'x': 'Male', 'y': 568}, {'x': 'Rock', 'y': 1136}, {'x': 'Sedan', 'y': 994}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Smoking Rate', 'type': 'nominal'}, 'y': {'field': 'Probability Density Function for Reaction Time (seconds)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 1130}, {'x': 'USA', 'y': 570}, {'x': 'Dog', 'y': 990}, {'x': 'Nike', 'y': 1090}, {'x': 'Rock', 'y': 1130}, {'x': 'Sedan', 'y': 990}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Software Updates', 'type': 'nominal'}, 'y': {'field': 'Internet Usage', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 9600}, {'x': 'USA', 'y': 3840}, {'x': 'Dog', 'y': 9600}, {'x': 'Nike', 'y': 7680}, {'x': 'Apple', 'y': 6720}, {'x': 'Male', 'y': 2880}, {'x': 'Rock', 'y': 2880}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Software Updates', 'type': 'nominal'}, 'y': {'field': 'Internet Usage', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 9560}, {'x': 'USA', 'y': 3840}, {'x': 'Dog', 'y': 9560}, {'x': 'Nike', 'y': 7720}, {'x': 'Rock', 'y': 2840}, {'x': 'USA', 'y': 3840}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': '', 'type': 'nominal'}, 'y': {'field': 'Average Daily Energy Consumption (kWh) by Appliance Type', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 109.51}, {'x': 'USA', 'y': 79.23}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Red', 'type': 'nominal'}, 'y': {'field': 'Average Daily Energy Consumption (kWh) by Appliance Type', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'USA', 'y': 79.99}, {'x': 'Red', 'y': 119.99}, {'x': 'USA', 'y': 79.99}, {'x': 'Red', 'y': 119.99}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Median Household Income Indexed By Regional Inflation Rates', 'type': 'quantitative'}, 'y': {'field': 'Detrended Analysis Of Yearly Weather Anomalies In Temperature Data', 'type': 'quantitative'}}, 'data': {'values': [{'x': 2325, 'y': 5.51}, {'x': 4185, 'y': 53.55}, {'x': 1395, 'y': 53.55}, {'x': 4185, 'y': 466.12}, {'x': 930, 'y': 208.69}, {'x': 2325, 'y': 257.75}, {'x': 4185, 'y': 307.66}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Median Household Income Indexed By Regional Inflation Rates', 'type': 'quantitative'}, 'y': {'field': 'Defended Analysis Of Yearly Weather Normalies In Temperature Data', 'type': 'quantitative'}}, 'data': {'values': [{'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}, {'x': 4000, 'y': 50.0}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Hospital Admissions', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1911, 'y': 8730}, {'x': 1920, 'y': 2910}, {'x': 1929, 'y': 8730}, {'x': 1938, 'y': 2910}, {'x': 1947, 'y': 7760}, {'x': 1956, 'y': 2910}, {'x': 1965, 'y': 8730}, {'x': 1974, 'y': 2910}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Hospital Admissions', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1910, 'y': 2870}, {'x': 1930, 'y': 8700}, {'x': 1950, 'y': 7700}, {'x': 1970, 'y': 2870}, {'x': 1970, 'y': 8700}, {'x': 1970, 'y': 2870}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Savings Rate', 'type': 'nominal'}, 'y': {'field': 'Cost', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 472}, {'x': 'USA', 'y': 944}, {'x': 'Dog', 'y': 2124}, {'x': 'Nike', 'y': 236}, {'x': 'Apple', 'y': 944}, {'x': 'Male', 'y': 944}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Savings Rate', 'type': 'nominal'}, 'y': {'field': 'Cost', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 480}, {'x': 'USA', 'y': 950}, {'x': 'Dog', 'y': 2130}, {'x': 'Nike', 'y': 2230}, {'x': 'Apple', 'y': 950}, {'x': 'Male', 'y': 950}, {'x': 'Red', 'y': 480}, {'x': 'USA', 'y': 950}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Adjusted R Squared For Linear Regression Model With Heteroscedasticity', 'type': 'temporal'}, 'y': {'field': 'Migration Rate', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1857, 'y': 264.34}, {'x': 1866, 'y': 19.66}, {'x': 1875, 'y': 234.56}, {'x': 1884, 'y': 290.62}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Adjusted R Squared For Linear Regression Model With Heteroscedasticity', 'type': 'temporal'}, 'y': {'field': 'Migration Rate', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1860, 'y': 286.19}, {'x': 1865, 'y': 12.19}, {'x': 1870, 'y': 12.19}, {'x': 1875, 'y': 236.19}, {'x': 1875, 'y': 236.19}, {'x': 1875, 'y': 236.19}, {'x': 1875, 'y': 236.19}, {'x': 1875, 'y': 236.19}, {'x': 1875, 'y': 236.19}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Effectiveness Of Intervention Programs On Youth Crime Rates', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1800, 'y': 6856}, {'x': 1807, 'y': 5999}, {'x': 1814, 'y': 6856}, {'x': 1821, 'y': 3428}, {'x': 1828, 'y': 857}, {'x': 1835, 'y': 5999}, {'x': 1842, 'y': 2571}, {'x': 1849, 'y': 5999}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Effectiveness Of Intervention Programs On Youth Crime Rates', 'type': 'temporal'}, 'y': {'field': '', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1800, 'y': 6700}, {'x': 1810, 'y': 6700}, {'x': 1820, 'y': 3800}, {'x': 1830, 'y': 1830}, {'x': 1840, 'y': 2600}, {'x': 1850, 'y': 6000}, {'x': 1840, 'y': 6000}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Software Updates', 'type': 'nominal'}, 'y': {'field': 'Sensitivity Analysis Of Forecast Accuracy In Consumer Demand Models', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 6.23}, {'x': 'USA', 'y': 6.23}, {'x': 'Dog', 'y': 26.15}, {'x': 'Nike', 'y': 6.23}, {'x': 'Apple', 'y': 44.34}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Software Updates', 'type': 'nominal'}, 'y': {'field': 'Sensitivity Analysis Of Forecast Accuracy In Consumer Demand Models', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Red', 'y': 6.21}, {'x': 'USA', 'y': 6.21}, {'x': 'Dog', 'y': 26.21}, {'x': 'Nike', 'y': 6.21}, {'x': 'Apple', 'y': 44.21}]}}
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.71 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.9 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|
+100%|██████████| 20/20 [01:31<00:00,  4.57s/it]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 20/20 [01:53<00:00,  5.70s/it]
+[35m|[39m JSON to Vega conversion error rate: [31m20.0[39m [31m%[39m [35m|
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.94 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.13 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.72 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Cost (as % of GNI)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2009', 'y': 0.02}, {'x': '2010', 'y': 0.03}, {'x': '2011', 'y': 0.03}, {'x': '2012', 'y': 0.03}, {'x': '2013', 'y': 0.03}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Coal (axis % of GW)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 0.02}, {'x': 'Year', 'y': 0.02}, {'x': 'Year', 'y': 0.02}, {'x': 'Year', 'y': 0.02}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Unemployed total(% of total labor force ages 15-24)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2006', 'y': 23.6}, {'x': '2007', 'y': 22.2}, {'x': '2008', 'y': 22.8}, {'x': '2009', 'y': 23.5}, {'x': '2010', 'y': 23.3}, {'x': '2011', 'y': 21.9}]}}
+[31m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Unemployed Youth Population of Colombia', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'data': {'x': 'Year', 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'data': {'x': 'Year', 'y': 'Unemployed Youth Population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth population of Colombia}}, 'y': 'Total unemployed youth
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Annual freshwater withdrawals (% of internal resources)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1997', 'y': 52.32}, {'x': '2002', 'y': 30.61}, {'x': '2007', 'y': 32.2}, {'x': '2012', 'y': 32.85}, {'x': '2013', 'y': 32.85}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Annual Freshwater Withdrawals (%) of Dilemmatized Resources', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 55.33}, {'x': 'Year', 'y': 55.33}, {'x': 'Year', 'y': 55.33}, {'x': 'Year', 'y': 55.33}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Area of land (in hectares)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1990', 'y': 1000}, {'x': '1991', 'y': 1000}, {'x': '1992', 'y': 1000}, {'x': '1993', 'y': 1000}, {'x': '1994', 'y': 1000}, {'x': '1995', 'y': 1000}, {'x': '1996', 'y': 1000}, {'x': '1997', 'y': 1000}, {'x': '1998', 'y': 1000}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Ave of land (happening)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 400}, {'x': 'Year', 'y': 200}, {'x': 'Year', 'y': 200}, {'x': 'Year', 'y': 200}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of fertilizer production', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2007', 'y': 326.59}, {'x': '2008', 'y': 309.01}, {'x': '2009', 'y': 269.27}, {'x': '2010', 'y': 324.87}, {'x': '2011', 'y': 383.54}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of fertilizer production', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 321.66}, {'x': 'Year', 'y': 308.66}, {'x': 'Year', 'y': 308.66}, {'x': 'Year', 'y': 267.66}, {'x': 'Year', 'y': 321.66}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Number of days', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2009', 'y': 147}, {'x': '2010', 'y': 27}, {'x': '2011', 'y': 15}, {'x': '2012', 'y': 15}, {'x': '2013', 'y': 15}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Number of Days', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 16.14}, {'x': 'Year', 'y': 16.14}, {'x': 'Year', 'y': 16.14}]}}
+[32m[1m{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Cost of communications, computer etc. (% of service imports)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2007', 'y': 48.51}, {'x': '2008', 'y': 56.64}, {'x': '2009', 'y': 55.96}, {'x': '2010', 'y': 40.69}, {'x': '2011', 'y': 47.58}, {'x': '2012', 'y': 37.18}, {'x': '2013', 'y': 39.53}]}}
+{'mark': 'line', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Cost of communications and computers with respect to service imports of Lebanon', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 40.25}, {'x': 'Year', 'y': 40.25}, {'x': 'Year', 'y': 40.25}, {'x': 'Year', 'y': 40.25}, {'x': 'Year', 'y': 40.25}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Aid flow from DAC donars (current US$)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1999', 'y': 3850000}, {'x': '2000', 'y': 11710000}, {'x': '2001', 'y': 3430000}, {'x': '2002', 'y': 2620000}, {'x': '2003', 'y': 8810000}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Alli/Pay/Performance from US$', 'type': 'quantitative'}}, 'data': {'values': [{'x': 385000, 'y': 1170000}, {'x': 385000, 'y': 1170000}, {'x': 385000, 'y': 340000}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Country', 'type': 'nominal'}, 'y': {'field': 'Yield kg per hectare', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Gabon', 'y': 1456.53}, {'x': 'Gambia, The', 'y': 1329.39}, {'x': 'Germany', 'y': 4161.63}, {'x': 'Ghana', 'y': 860.02}, {'x': 'Greece', 'y': 3312.52}, {'x': 'Grenada', 'y': 1044.44}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Country', 'type': 'nominal'}, 'y': {'field': 'Yield by per hurricane', 'type': 'quantitative'}}, 'data': {'values': [{'x': 1430.66, 'y': 850.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}, {'x': 1330.66, 'y': 430.16}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of poverty lines', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2002', 'y': 5.1}, {'x': '2006', 'y': 3.1}, {'x': '2009', 'y': 1.7}, {'x': '2012', 'y': 1.2}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': '55/poverty lines', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 75.4}, {'x': 'Year', 'y': 75.4}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of tax revenue', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1991', 'y': 5.46}, {'x': '1992', 'y': 5.96}, {'x': '1993', 'y': 6.1}, {'x': '1994', 'y': 6.88}]}}
+[31m{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Syllable'}, 'data': {'values': [{'x': 'Year', 'y': 55.14}, {'x': 'Year', 'y': 7.91}, {'x': 'Year', 'y': 7.91}, {'x': 'Year', 'y': 7.91}]}}
+[32m[1m{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Number of procedures to build a warehouse', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2010', 'y': 11}, {'x': '2011', 'y': 11}, {'x': '2012', 'y': 11}, {'x': '2013', 'y': 11}]}}
+{'mark': 'bar', 'encoding': {'x': {'field': 'Year', 'type': 'nominal'}, 'y': {'field': 'Number of procedures to build a warehouse in Congo (Republic)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 13.14}, {'x': 'Year', 'y': 13.14}, {'x': 'Year', 'y': 13.14}, {'x': 'Year', 'y': 13.14}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Production in metric tons', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1976', 'y': 105946}, {'x': '1977', 'y': 75660}, {'x': '1978', 'y': 103167}, {'x': '1979', 'y': 73240}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Production in Hooker tons', 'type': 'quantitative'}}, 'data': {'values': [{'x': 10000, 'y': 7000}, {'x': 10000, 'y': 10000}, {'x': 10000, 'y': 7000}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Score (0=lowest to 100=highest performance)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2010', 'y': 62.37}, {'x': '2011', 'y': 64.87}, {'x': '2012', 'y': 68.78}, {'x': '2013', 'y': 70.34}, {'x': '2014', 'y': 72.68}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Score (integrated to household and environment)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 100}, {'x': 'Year', 'y': 100}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of births', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2000', 'y': 22.3}, {'x': '2005', 'y': 17.6}, {'x': '2007', 'y': 17.0}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Percentage of babies born with low-Birthweight in Sri Lanka', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 17.66}, {'x': 'Year', 'y': 17.66}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of children who received DPT vaccine', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1991', 'y': 90}, {'x': '1992', 'y': 91}, {'x': '1993', 'y': 88}, {'x': '1994', 'y': 89}, {'x': '1995', 'y': 90}, {'x': '1996', 'y': 77}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': '% of children who received DPT vaccinations', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 10.5}, {'x': 'Year', 'y': 10.5}, {'x': 'Year', 'y': 10.5}, {'x': 'Year', 'y': 10.5}, {'x': 'Year', 'y': 10.5}, {'x': 'Year', 'y': 10.5}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': '% of households', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2002', 'y': 35}, {'x': '2003', 'y': 35}]}}
+[31mgrouped_df = df.groupby(['Year', 'type', 'type']).size()<0x0A><0x0A>fig, ax = plt.subplots(figsize=(15, 15))<0x0A><0x0A>grouped_df.plot(kind='swarm', <0x0A>        x='Year', <0x0A>        y='Percentage of households in Russian Federation that uses iodized salt', <0x0A>        ax=ax, <0x0A>        color='purple', <0x0A>        title='Percentage of households in Russian Federation that uses iodized salt', <0x0A>        ylabel='% of households', <0x0A>        xlim=('2015', '2016'), <0x0A>        ylim=('2016', '2016'), <0x0A>        xlim=('2016', '2016'), <0x0A>        ylabel='% of households', <0x0A>        xlabel='Year', <0x0A>        ylabel='% of households', <0x0A>        xlim=('2016', '2016'), <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlim=('2016', '2016'), <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', <0x0A>        ylabel='% of households', <0x0A>        xlabel='', 
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Consumption of fixed capital (as % of GNI)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1975', 'y': 14.25}, {'x': '1976', 'y': 14.62}, {'x': '1977', 'y': 15.0}, {'x': '1978', 'y': 15.26}, {'x': '1979', 'y': 15.59}, {'x': '1980', 'y': 16.23}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Consumption of land capital (set % of GWD)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '15', 'y': 18.61}, {'x': '15', 'y': 18.61}, {'x': '15', 'y': 18.61}, {'x': '15', 'y': 18.61}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Cost (as % of GNI)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '1970', 'y': 1.54}, {'x': '1971', 'y': 1.3}, {'x': '1972', 'y': 1.3}, {'x': '1973', 'y': 2.03}, {'x': '1974', 'y': 2.01}, {'x': '1975', 'y': 4.07}, {'x': '1976', 'y': 2.75}]}}
+[31m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Cost (y^{'x': 1000}, 'data': {'values': [{'x': 'Year', 'y': 1000}, {'x': 'Year', 'y': 1000}]}}
+[32m[1m{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'temporal'}, 'y': {'field': 'Strength Index( 0 = weak,12 = strong)', 'type': 'quantitative'}}, 'data': {'values': [{'x': '2013', 'y': 5}, {'x': '2014', 'y': 5}, {'x': '2015', 'y': 5}]}}
+{'mark': 'circle', 'encoding': {'x': {'field': 'Year', 'type': 'quantitative'}, 'y': {'field': 'Strength Index (12 ± %(K+D)', 'type': 'quantitative'}}, 'data': {'values': [{'x': 'Year', 'y': 12.04}, {'x': 'Year', 'y': 12.04}]}}
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.94 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.13 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.72 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/msinnona/.cache/huggingface/token
+Login successful
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/msinnona/.cache/huggingface/token
+Login successful
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+[32m[1m[Train] :[39m[22m 1000
+[32m[1m[Val] :[39m[22m 20
+[32m[1m[Val #2] :[39m[22m 20
+[32m[1m[Test #1] :[39m[22m 100
+[32m[1m[Test #2] :[39m[22m 37
+> Using model:  [31m[1mmatcha-base

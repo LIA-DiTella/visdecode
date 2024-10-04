@@ -1,0 +1,91 @@
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Configure stats pid to 3007519
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Loading settings from /home/msinnona/.config/wandb/settings
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Loading settings from /mnt/disk2/msinnona/visdecode/eurographics/wandb/settings
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241002_172312-ix565cxo/logs/debug.log
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241002_172312-ix565cxo/logs/debug-internal.log
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_init.py:init():566] calling init triggers
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-10-02 17:23:12,274 INFO    MainThread:3007519 [wandb_init.py:init():591] re-initializing run, found existing run on stack: a5oh12ea
+2024-10-02 17:23:12,276 INFO    MainThread:3007519 [wandb_run.py:_finish():1970] finishing run martinsinnona/visdecode/a5oh12ea
+2024-10-02 17:23:12,276 INFO    MainThread:3007519 [jupyter.py:save_history():445] not saving jupyter history
+2024-10-02 17:23:12,276 INFO    MainThread:3007519 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-10-02 17:23:12,277 INFO    MainThread:3007519 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-10-02 17:23:12,277 INFO    MainThread:3007519 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-10-02 17:23:12,277 INFO    MainThread:3007519 [wandb_run.py:_restore():2193] restore
+2024-10-02 17:23:12,277 INFO    MainThread:3007519 [wandb_run.py:_restore():2199] restore done
+2024-10-02 17:25:32,530 WARNING MsgRouterThr:3007519 [router.py:message_loop():77] message_loop has been closed
+2024-10-02 17:25:38,310 INFO    MainThread:3007519 [wandb_run.py:_restore():2193] restore
+2024-10-02 17:25:38,311 INFO    MainThread:3007519 [wandb_run.py:_restore():2199] restore done
+2024-10-02 17:25:38,526 ERROR   MainThread:3007519 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2219, in _atexit_cleanup
+    self._on_finish()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2474, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 298, in wait
+    on_probe(probe_handle)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2436, in _on_probe_exit
+    result = handle.wait(timeout=0, release=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    latest_run.finish()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 1961, in finish
+    return self._finish(exit_code, quiet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 1976, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2230, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/backend/backend.py", line 232, in cleanup
+    self.interface.join()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 547, in join
+    super().join()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 710, in join
+    _ = self._communicate_shutdown()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 440, in _communicate_shutdown
+    _ = self._communicate(record)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 300, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/interface/router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

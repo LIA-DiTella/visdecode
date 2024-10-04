@@ -254,7 +254,7 @@ def eval(texts, gt_texts):
     print(magenta("|"), bold(cyan("MARK-TYPE")), ":", mark_type_score, magenta("|"), bold(cyan("X-TYPE")), ":", x_type_score, magenta("|"), bold(cyan("Y-TYPE")), ":", y_type_score, magenta("|"), bold(cyan("X-NAME")), ":", x_name_score, magenta("|"), bold(cyan("Y-NAME")), ":", y_name_score, magenta("|"))
     print(bold(magenta("------------------------------------------------------------------------------------------------------------------------\n")))
 
-    return metrics
+    return {"mark_type": mark_type_score, "x_type": x_type_score, "y_type": y_type_score, "x_name": x_name_score, "y_name": y_name_score}
 
 def eval_model(processor, model, dataset, device):
 
