@@ -1,0 +1,19 @@
+
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/msinnona/.cache/huggingface/token
+Login successful
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+[32m[1m[Train] :[39m[22m 1000
+[32m[1m[Val] :[39m[22m 20
+[32m[1m[Val #2] :[39m[22m 20
+[32m[1m[Test #1] :[39m[22m 100
+[32m[1m[Test #2] :[39m[22m 37
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

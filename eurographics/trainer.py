@@ -13,7 +13,7 @@ TRAIN_MODEL = "matcha-base"
 
 UPLOAD_METRICS = True
 
-LR = 1e-7
+LR = 1e-7 * 5
 EPOCHS = 100
 EVAL_STEP = 5
 BEST_ACCURACY = 0.3

@@ -1,0 +1,17 @@
+
+5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d6.29.35dc3a68c-e34e-4080-9c3e-2a532b2ccb4d
+5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d6.29.35dc3a68c-e34e-4080-9c3e-2a532b2ccb4d
+5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d6.29.35dc3a68c-e34e-4080-9c3e-2a532b2ccb4d
+Error: no "view" rule for type "image/png" passed its test case
+       (for more information, add "--debug=1" on the command line)
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/msinnona/.cache/huggingface/token
+Login successful
+[32m[1m[Train] :[39m[22m 1000
+[32m[1m[Val] :[39m[22m 20
+[32m[1m[Val #2] :[39m[22m 20
+[32m[1m[Test #1] :[39m[22m 100
+[32m[1m[Test #2] :[39m[22m 37
+> Using model:  [31m[1mmatcha-base
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

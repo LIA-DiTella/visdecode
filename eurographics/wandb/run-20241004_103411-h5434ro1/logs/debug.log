@@ -1,0 +1,104 @@
+2024-10-04 10:34:11,261 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-10-04 10:34:11,261 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Configure stats pid to 47193
+2024-10-04 10:34:11,261 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from /home/msinnona/.config/wandb/settings
+2024-10-04 10:34:11,261 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from /mnt/disk2/msinnona/visdecode/eurographics/wandb/settings
+2024-10-04 10:34:11,262 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-04 10:34:11,262 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-04 10:34:11,262 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:34:11,262 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:34:11,262 INFO    MainThread:47193 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241004_103411-h5434ro1/logs/debug.log
+2024-10-04 10:34:11,263 INFO    MainThread:47193 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241004_103411-h5434ro1/logs/debug-internal.log
+2024-10-04 10:34:11,263 INFO    MainThread:47193 [wandb_init.py:init():566] calling init triggers
+2024-10-04 10:34:11,264 INFO    MainThread:47193 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-10-04 10:34:11,264 INFO    MainThread:47193 [wandb_init.py:init():591] re-initializing run, found existing run on stack: l8i6ip0a
+2024-10-04 10:34:11,271 INFO    MainThread:47193 [wandb_run.py:_finish():1970] finishing run martinsinnona/visdecode/l8i6ip0a
+2024-10-04 10:34:11,272 INFO    MainThread:47193 [jupyter.py:save_history():445] not saving jupyter history
+2024-10-04 10:34:11,272 INFO    MainThread:47193 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-10-04 10:34:11,272 INFO    MainThread:47193 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-10-04 10:34:11,272 INFO    MainThread:47193 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-10-04 10:34:11,273 INFO    MainThread:47193 [wandb_run.py:_restore():2193] restore
+2024-10-04 10:34:11,274 INFO    MainThread:47193 [wandb_run.py:_restore():2199] restore done
+2024-10-04 10:34:18,396 INFO    MainThread:47193 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-10-04 10:34:18,397 INFO    MainThread:47193 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-10-04 10:34:18,411 INFO    MainThread:47193 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-10-04 10:34:18,624 INFO    MainThread:47193 [wandb_init.py:init():616] starting backend
+2024-10-04 10:34:18,625 INFO    MainThread:47193 [wandb_init.py:init():620] setting up manager
+2024-10-04 10:34:18,638 INFO    MainThread:47193 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-04 10:34:18,640 INFO    MainThread:47193 [wandb_init.py:init():628] backend started and connected
+2024-10-04 10:34:18,676 INFO    MainThread:47193 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-10-04 10:34:18,676 INFO    MainThread:47193 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-04 10:34:18,677 INFO    MainThread:47193 [wandb_init.py:init():720] updated telemetry
+2024-10-04 10:34:18,721 INFO    MainThread:47193 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-10-04 10:34:19,382 WARNING MainThread:47193 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-04 10:37:56,036 INFO    MainThread:47193 [wandb_settings.py:_apply_login():1903] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:37:56,057 INFO    MainThread:47193 [wandb_settings.py:_apply_login():1903] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:37:56,569 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-10-04 10:37:56,570 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Configure stats pid to 47193
+2024-10-04 10:37:56,570 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from /home/msinnona/.config/wandb/settings
+2024-10-04 10:37:56,570 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from /mnt/disk2/msinnona/visdecode/eurographics/wandb/settings
+2024-10-04 10:37:56,570 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-04 10:37:56,570 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-04 10:37:56,571 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:37:56,571 INFO    MainThread:47193 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-04 10:37:56,571 INFO    MainThread:47193 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241004_103756-1341inc3/logs/debug.log
+2024-10-04 10:37:56,571 INFO    MainThread:47193 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/disk2/msinnona/visdecode/eurographics/wandb/run-20241004_103756-1341inc3/logs/debug-internal.log
+2024-10-04 10:37:56,572 INFO    MainThread:47193 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4d080f9190>
+2024-10-04 10:37:56,573 INFO    MainThread:47193 [wandb_init.py:init():566] calling init triggers
+2024-10-04 10:37:56,573 INFO    MainThread:47193 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-10-04 10:37:56,573 INFO    MainThread:47193 [wandb_init.py:init():616] starting backend
+2024-10-04 10:37:56,574 INFO    MainThread:47193 [wandb_init.py:init():620] setting up manager
+2024-10-04 10:37:56,584 INFO    MainThread:47193 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-04 10:37:56,586 INFO    MainThread:47193 [wandb_init.py:init():628] backend started and connected
+2024-10-04 10:37:56,626 INFO    MainThread:47193 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-10-04 10:37:56,626 INFO    MainThread:47193 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-04 10:37:56,627 INFO    MainThread:47193 [wandb_init.py:init():720] updated telemetry
+2024-10-04 10:37:56,636 INFO    MainThread:47193 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-10-04 10:38:19,356 WARNING MainThread:47193 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
