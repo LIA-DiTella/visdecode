@@ -7,22 +7,24 @@ from transformers import AutoProcessor, Pix2StructForConditionalGeneration
 import wandb
 import visdecode
 from visdecode import *
+from PIL import Image
+from torchvision import transforms
 
-MODEL = "a"
+MODEL = "visdecode2"
 TRAIN_MODEL = "matcha-base"
 
 UPLOAD_METRICS = True
 
-LR = 1e-7 * 5
-EPOCHS = 100
-EVAL_STEP = 5
+LR = 1e-6
+EPOCHS = 50
+EVAL_STEP = 2
 BEST_ACCURACY = 0.3
 MAX_LENGTH = 600
+MAX_SCORE = 0.80
 
 UPLOAD_METRICS = UPLOAD_METRICS and EPOCHS != -1
-
 torch.manual_seed(42)
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda:1" if torch.cuda.is_available() else "cpu"
 login(token = "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")
 
 dataset_train = load_dataset("martinsinnona/visdecode", split = "train")
@@ -40,13 +42,11 @@ print(bold(green("[Val #2] :")), len(dataset_val2))
 
 print(bold(green("[Test #1] :")), len(dataset_test1))
 print(bold(green("[Test #2] :")), len(dataset_test2))
-
 model_name = MODEL if EPOCHS == -1 else TRAIN_MODEL
 owner = "martinsinnona" if EPOCHS == -1 else "google"
 
 print("> Using model: ", bold(red(model_name)))
 processor, model = visdecode.load_model(owner, model_name, device)
-
 if UPLOAD_METRICS:
 
     wandb.login(key = "451637d95c22df4568c6f5a268e37071bc14547b")
@@ -55,12 +55,12 @@ if UPLOAD_METRICS:
         entity="martinsinnona", 
         config = {}
     )
-
 class ImageCaptioningDataset(Dataset):
 
-    def __init__(self, dataset, processor):
+    def __init__(self, dataset, processor, transform = None):
         self.dataset = dataset
         self.processor = processor
+        self.transform = transform
 
     def __len__(self):
         return len(self.dataset)
@@ -68,7 +68,19 @@ class ImageCaptioningDataset(Dataset):
     def __getitem__(self, idx):
 
         item = self.dataset[idx]
-        encoding = self.processor(images=item["image"], text = "", return_tensors="pt", add_special_tokens=True, max_patches=1024)
+
+        image = item["image"].convert("RGBA")
+
+        if self.transform: 
+             
+            image = self.transform(image)
+
+            white_background = Image.new("RGBA", image.size, (255, 255, 255, 255))
+            image = Image.alpha_composite(white_background, image)
+
+            image = image.convert("RGB")
+
+        encoding = self.processor(images=image, text = "", return_tensors="pt", add_special_tokens=True, max_patches=1024)
 
         encoding = {k:v.squeeze() for k,v in encoding.items()}
         encoding["text"] = item["text"]
@@ -92,14 +104,17 @@ def collator(batch):
     new_batch["attention_mask"] = torch.stack(new_batch["attention_mask"])
 
     return new_batch
-
-train_dataset = ImageCaptioningDataset(dataset_train, processor)
-train_dataloader = DataLoader(train_dataset, shuffle=True, batch_size=2, collate_fn=collator)
+transform = transforms.Compose([
+    transforms.RandomApply([transforms.RandomRotation(degrees = (0, 360), expand = True)], p=0),
+])
+train_dataset = ImageCaptioningDataset(dataset_train, processor, transform)
+train_dataloader = DataLoader(train_dataset, shuffle=True, batch_size=4, collate_fn=collator)
 optimizer = torch.optim.AdamW(model.parameters(), lr = LR) 
 
 model.to(device)
 model.train()
 
+0
 losses = []
 
 for epoch in range(EPOCHS + 1):
@@ -132,10 +147,12 @@ for epoch in range(EPOCHS + 1):
     metrics_val1 = eval_model(processor, model, dataset_val1, device)
     metrics_val2 = eval_model(processor, model, dataset_val2, device)
 
+    if metrics_val2["y_name"] > MAX_SCORE:
+        model.push_to_hub(MODEL)
+        MAX_SCORE = metrics_val2["y_name"]
+
     if UPLOAD_METRICS: 
         wandb.log({"val1_y_name": metrics_val1["y_name"], "val2_y_name": metrics_val2["y_name"], "loss": loss.cpu().detach().numpy().item()})
-
 eval_model(processor, model, dataset_test1, device)
 eval_model(processor, model, dataset_test2, device)
-
 if UPLOAD_METRICS: wandb.finish()
